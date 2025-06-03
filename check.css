@@ -1,0 +1,74 @@
+.member-from{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 10px;
+}
+.from-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+}
+.check-in-btn{
+    width: 900px;
+    padding: 8px;
+    margin: auto;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.non-membership{
+    width: 900px;
+    padding: 8px;
+    margin: auto;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.form-group-contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+}
+.form-group-contact .input-section{
+    display: flex;
+    gap: 10px;
+}
+.form-group-contact #email{
+    width: 300px;
+    height: 30px;
+}
+.form-group-coupon{
+    padding: 10px;
+    gap: 8px;
+}
+.form-group-coupon #coupon{
+    width: 300px;
+    height: 30px;
+}
+.form-group-referral{
+    padding: 10px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group-referral #referral{
+    width: 300px;
+    height: 30px;
+}
+.submit-btn{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.submit-btn:hover{
+    background-color: #225dac;
+}

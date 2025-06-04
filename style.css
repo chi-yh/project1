@@ -815,12 +815,20 @@ flex-direction: column;
     border: 1px solid var(--main-color);
     color: #23704D;
 }
+.minusbtn:hover{
+    background-color: #23704D;
+    color: #fff;
+}
 .plusbtn{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid var(--main-color);
     color: #23704D;
+}
+.plusbtn:hover{
+    background-color: #23704D;
+    color: #fff;
 }
 .quantity-wrapper input{
     height: 25px;

@@ -779,6 +779,7 @@ flex-direction: column;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3px;
+    margin-top: 5px;
 }
 .small-img img{
     width: 100%;

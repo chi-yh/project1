@@ -334,6 +334,8 @@ flex-direction: column;
     grid-row: span 4;
     padding: 0;
     height: 100%;
+}.col a{
+    text-decoration: none;
 }
 .card .pic{
     width: 100%;

@@ -851,8 +851,9 @@ flex-direction: column;
     color: #fff;
 }
 .buybtn:hover{
-    background-color: #fff;
-    color: #1D9F64;
+    background-color:#D65331;
+    color: #fff;
+    border-color: #D65331;
 }
 .addtocartbtn{
     width: 300px;
@@ -862,7 +863,7 @@ flex-direction: column;
     color: #23704D;
 }
 .addtocartbtn:hover{
-    background-color: #1D9F64;
+    background-color: #D65331;
     color: #fff;
 }
 .addtocartbtn img{

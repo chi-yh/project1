@@ -867,6 +867,7 @@ flex-direction: column;
 }
 .addtocartbtn:hover{
     background-color: #D65331;
+    border: 1px solid #D65331;
     color: #fff;
 }
 .addtocartbtn img{

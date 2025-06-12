@@ -27,3 +27,27 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     });
 });
+    const toggleBtn = document.querySelector('.nav-search');
+    const searchContainer = document.querySelector('.search-container');
+    const inputBox = document.querySelector('.search-input');
+    toggleBtn.addEventListener('click', function () {
+    searchContainer.classList.toggle('show');
+    inputBox.focus(); 
+    });
+
+    const hb = document.querySelector(".hb");
+    const menu = document.getElementById("mobileMenu");
+    const barIcon = hb.querySelector('.bar-icon');
+    const closeIcon = hb.querySelector('.close-hb');
+
+    barIcon.addEventListener('click',()=>{
+        menu.classList.remove("hidden");
+        barIcon.classList.add("hidden");
+        closeIcon.style.display = 'block'
+    },false);
+
+    closeIcon.addEventListener('click',()=>{
+        menu.classList.add("hidden");
+        barIcon.classList.remove("hidden");
+        closeIcon.style.display = 'none';
+    },false);

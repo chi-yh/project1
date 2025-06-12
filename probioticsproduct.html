@@ -1,200 +1,214 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="grid.css">
-    <script src="all.js" defer></script>
-    <title>vita C 綜合益生菌 30包/盒</title>
-</head>
-<body>
-    <div class="container-large">
-        <header class="main-header">
-            <input type="checkbox" name="" id="menu-switch">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vita C 綜合益生菌 30包/盒</title>
+        <meta name="description" content="您的腸道，是維持全身機能的關鍵樞紐。當好菌與壞菌達到和諧平衡，身體自然充滿活力。vitaC 綜合益生菌 以簡約純粹的配方，結合多種優勢菌株、專利保護技術與益生質，溫和呵護您的腸道健康，讓您由內而外煥發健康光彩。">
+        <link rel="icon" href="picture/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <header class="main-header container-large">
             <div class="logo">
-            <a href="index.html"><img src="picture/logo.png" alt=""></a>
+                <a href="index.html"><img src="picture/logo.png" alt=""></a>
             </div>
-            <nav class="main-nav header-right">
-                <ul class="menu">
-                    <li><a href="aboutus.html">關於我們</a></li>
-                    <li>
-                        <a href="product-list-all.html">所有商品</a>
-                        <input type="checkbox" name="" id="m1">
-                        <label for="m1" class="icon">
-                            <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
-                        </label>
-                        <ul class="submenu">
-                            <li><a href="product-list-Probiotics.html">益生菌</a></li>
-                            <li><a href="product-list-vitaminb.html">維他命b</a></li>
-                            <li><a href="product-list-vitaminc.html">維他命c</a></li>
-                            <li><a href="product-list-lutein.html">葉黃素</a></li>
-                            <li><a href="product-list-fishoil.html">魚油</a></li>
-                            <li><a href="product-list-whey.html">乳清蛋白</a></li>
-                        </ul>
+            <ul class="menu open hidden" id="mobileMenu">
+                <li><a href="aboutus.html">關於我們</a></li>
+                <li>
+                    <a href="product-list-all.html">所有商品</a>
+                    <input type="checkbox" name="" id="m1">
+                    <label for="m1" class="icon">
+                        <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+                    </label>
+                    <ul class="submenu">
+                        <li><a href="product-list-Probiotics.html">益生菌</a></li>
+                        <li><a href="product-list-vitaminb.html">維他命b</a></li>
+                        <li><a href="product-list-vitaminc.html">維他命c</a></li>
+                        <li><a href="product-list-lutein.html">葉黃素</a></li>
+                        <li><a href="product-list-fishoil.html">魚油</a></li>
+                        <li><a href="product-list-whey.html">乳清蛋白</a></li>
+                    </ul>
                     </li>
-                    <li><a href="feedback-list.html">顧客推薦</a></li>
-                    <li><a href="blog.html">健康知識</a></li>
-                </ul>
-            </nav>
-            <div class="header-icons nav-right">
-                <div class="navicons">
-                <a href="search-page.html"><svg width="25" height="25" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="currentcolor"/>
-                    </svg></a>
-                    <a href="cart-list.html"><svg width="25" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentcolor"/>
-                    </svg>
-                    </a>
+                <li><a href="feedback-list.html">顧客推薦</a></li>
+                <li><a href="blog.html">健康知識</a></li>  
+            </ul>
+            <div class="nav-icons">
+                <div class="search-container">
+                    <form class="search-form" action="/search" method="get">
+                        <input type="text" name="q" placeholder="搜尋商品" class="search-input">
+                    </form>
+                        <button class="nav-search">
+                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="#fff"/>
+                                </svg>
+                            </button>
                 </div>
-                    <label for="menu-switch" class="hb"><svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></label>
-            </div>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M6 40.8V42h36v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C35.92 28 33.68 28 29.2 28H18.8c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C6 34.08 6 36.32 6 40.8"/>
+                    </svg>
+                </a>
+                <a href="" class="nav-cart">
+                    <svg width="30" height="30" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentColor"/>
+                    </svg>
+                    <span id="globalCartBadg" class="cart-badge">0</span>
+                </a>
+                <button class="hb" aria-label="切換選單">
+                    <span class="hbicon bar-icon"><svg height="32px" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </span>
+                    <span class="hbicon close-hb hidden"><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="25" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m5 19l7-7m0 0l7-7m-7 7L5 5m7 7l7 7" /></svg>
+                    </span>
+                </button>
         </header>
 <!-- nav-end -->
 <!-- breadcrumb -->
-<div class="breadcrumb" aria-label="breadcrumb">
-    <ol>
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="product-list-all.html">所有商品</a></li>
-        <li><a href="product-list-Probiotics.html">vita C 綜合益生菌推薦</a></li>
-        <li aria-current="page">vita C 綜合益生菌 30包/盒</li>
-    </ol>
-</div>
+        <div class="breadcrumb" aria-label="breadcrumb">
+            <ol>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="product-list-all.html">所有商品</a></li>
+                <li><a href="product-list-Probiotics.html">vita C 綜合益生菌推薦</a></li>
+                <li aria-current="page">vita C 綜合益生菌 30包/盒</li>
+            </ol>
+        </div>
 <!-- breadcrumb-end -->
-<section class="container">
-    <div class="productpage-first-section">
-        <div class="productimg">
-            <div class="large-img">
-                <img src="picture/probiotics.jpg" alt="綜合益生菌">
+        <section class="container">
+            <div class="productpage-first-section">
+                <div class="productimg">
+                    <div class="large-img">
+                        <img src="picture/probiotics.jpg" alt="綜合益生菌">
+                    </div>
+                    <div class="small-img">
+                        <img src="picture/probioticsproduct.jpg" alt="綜合益生菌各組合">
+                        <img src="picture/probioticsorange.jpg" alt="綜合益生菌橘色">
+                        <img src="picture/probioticsgreen.jpg" alt="綜合益生菌綠色">
+                    </div>
+                </div>
+                <div class="productpage-first-section-right">
+                    <div class="product-introduction">
+                        <h1>vitaC 綜合益生菌</h1>
+                        <ul>
+                            <li>健康食品認證：輔助調節過敏體質</li>
+                            <li>多元優勢菌株： 含300億活性益生菌</li>
+                            <li>專利包埋技術： 採用專利充碳包埋技術，保護益生菌直達腸道，有效定殖。</li>
+                            <li>添加益生質： 搭配益生質，提供益生菌養分，促進生長。</li>
+                            <li>純粹無添加： 無人工香料、色素、防腐劑，成分簡單更安心。</li>
+                            <li>品質嚴格把關：台灣 GMP 認證，多項檢驗合格。</li>
+                        </ul>
+                        <p class="cost">$ 1300</p>
+                    </div>
+                    <div class="quantity-wrapper">
+                        <span>數量</span>
+                        <button class="minusbtn">-</button>
+                        <input type="text" class="qty-input" value="1">
+                        <button class="plusbtn">+</button>
+                    </div>
+                    <div class="btns">
+                        <a href="cart-list.html"><button class="buybtn">立即購買</button></a>
+                        <button class="addtocartbtn">加入購物車</button>
+                    </div>
+                </div>
             </div>
-            <div class="small-img">
-                <img src="picture/probioticsproduct.jpg" alt="綜合益生菌各組合">
-                <img src="picture/probioticsorange.jpg" alt="綜合益生菌橘色">
-                <img src="picture/probioticsgreen.jpg" alt="綜合益生菌綠色">
+            <div class="productpage-content">
+                <h2>vitaC綜合益生菌：為您的腸道注入純粹活力</h2>
+                <p>您的腸道，是維持全身機能的關鍵樞紐。當好菌與壞菌達到和諧平衡，身體自然充滿活力。vitaC 綜合益生菌 以簡約純粹的配方，結合多種優勢菌株、專利保護技術與益生質，溫和呵護您的腸道健康，讓您由內而外煥發健康光彩。</p>
+                <h2>產品特色：</h2>
+                    <ul>
+                        <li>多元優勢菌株，共築健康防線： 我們嚴選多種對人體有益的活性益生菌，包含：
+                        <ul class="subli">
+                            <li class="subli">A 菌 (嗜酸乳桿菌)： 常見且重要的益生菌，有助於調整菌叢生態，維持消化道機能。</li>
+                            <li class="subli">B 菌 (比菲德氏龍根菌)： 嬰幼兒時期即存在的重要菌種，能幫助消化，維持腸道健康。</li>
+                            <li class="subli">C 菌 (乾酪乳桿菌) ： 耐酸性佳，有助於改變細菌叢生態，使排便順暢。</li>
+                        </ul>
+                        </li>
+                        <li>專利充碳技術，層層保護直達： 為了確保珍貴的益生菌能順利抵達腸道並發揮作用，我們採用先進的包埋技術，猶如為每一顆益生菌穿上堅固的保護衣，有效抵抗胃酸、膽鹼等消化液的侵蝕，大幅提升益生菌的存活率，使其能完整送達腸道，成功定殖，釋放活性。</li>
+                        <li>添加益生質 ，好菌的活力補給： 我們貼心添加益生質，能有效促進腸道內好菌的生長與繁殖，維持腸道菌叢的健康平衡，讓好菌更有活力地守護您的消化道。</li>
+                        <li>純粹承諾，無不必要的負擔： vitaC 堅持提供純淨、無負擔的保健選擇。本產品 不添加人工香料、人工色素、化學防腐劑 等非必要成分，讓您補充好菌的同時，也能避免攝取多餘的添加物，守護您的健康從純粹開始。</li>
+                        <li>嚴格品質把關，安心看得見： 本產品於台灣通過 GMP 認證的專業廠房生產製造。從原料的嚴選、生產過程的嚴格監控，到最終成品的品質檢驗，每一個環節都符合高標準規範，確保產品的安全性與有效性，讓您安心食用。</li>
+                        <li>小分子技術，吸收更有效率：我們採用先進的小分子技術，將益生菌活性成分細化，使其更容易被腸道吸收利用，提升保健效果。</li>
+                        <li>常溫保存，隨時補充好菌：本產品採用特殊技術，無需冷藏，方便您隨身攜帶，隨時隨地補充好菌，維持腸道健康。</li>
+                    </ul>
+                    <h2>益生菌常見問題 Q&A：</h2>
+                    <p>Q：益生菌什麼時候吃最好？</p>
+                    <p>A： 建議空腹或睡前食用，避開胃酸影響，幫助益生菌順利抵達腸道。部分產品亦有特殊建議，請參考產品標示</p>
+                    <p>Q：益生菌需要冰嗎？</p>
+                    <p>A： 多數益生菌產品建議存放於陰涼乾燥處即可，部分特殊菌株或劑型可能需要冷藏，請依照產品標示說明保存。
+                    </p>
+                    <p>Q：吃益生菌會有副作用嗎？</p>
+                    <p>A： 少數人在初期可能會有輕微脹氣或排氣等調整反應，通常幾天後會逐漸緩解。若不適感持續，建議暫停使用並諮詢專業人士。</p>
+                    <p>Q：孕婦或小孩可以吃益生菌嗎？</p>
+                    <p>A： 一般情況下孕婦和小孩可以食用益生菌，但建議選擇適合其年齡層的產品，並在諮詢醫師或藥師後使用更佳。</p>
+                    <p>Q：益生菌要吃多久才有效？</p>
+                    <p>A： 益生菌的保健效果因人而異，通常需要持續食用一段時間才能感受到變化，建議至少持續食用 1-3 個月。</p>
+                    <p>Q：益生菌菌數越高越好嗎？</p>
+                    <p>A： 並非如此，重點在於菌株的種類與活性，以及是否能順利抵達腸道定殖。選擇適合自身需求的優質菌株更重要。</p>
+                    <p>Q：益生菌可以和藥物一起吃嗎？</p>
+                    <p>A： 益生菌與多數藥物沒有直接衝突，但為避免影響藥效，建議間隔 1-2 小時以上食用，或諮詢醫師或藥師。</p>
+                    <p>Q：為什麼我的益生菌吃起來沒感覺？</p>
+                    <p>A： 可能原因包括食用時間不對、劑量不足、菌株不適合個人體質，或腸道菌群失衡嚴重，建議調整食用方式或選擇其他產品。</p>
+                    <p>Q：益生菌可以幫助排便嗎？</p>
+                    <p>A： 部分益生菌具有促進腸道蠕動、增加糞便體積的作用，有助於改善排便不順暢的情況。</p>
+                    <p>Q：益生菌除了幫助消化還有其他功效嗎？</p>
+                    <p>A： 是的，部分益生菌經研究證實具有調整體質、提升保護力、維持菌叢平衡等多重健康益處。</p>
+                    <h2>商品規格</h2>
+                    <p>主要成分：副乾酪乳桿菌、鼠李糖乳桿菌、嗜酸乳桿菌、比菲德氏龍根菌、菊苣纖維 (益生元)</p>
+                    <p>內容量： 30 包/盒，每包 2 公克</p>
+                    <p>建議用量： 每日 1 包，可直接撕開食用或搭配常溫水或飲品食用。</p>
+                    <p>保存期限： 一年</p>
+                    <p>原產地： 台灣</p>
+                    <p>保存方法： 請置於陰涼乾燥處，避免陽光直射。開封後請儘速食用完畢。</p>
+                    <h3>注意事項：</h3>
+                    <ul class="caution">
+                        <li>本產品含有牛奶及甲殼類製品，不適合對其過敏體質者食用。</li>
+                        <li>請洽詢醫師或營養師有關食用本品之意見</li>
+                        <li>均衡的飲食及適當的運動為身體健康的基礎</li>
+                        <li>本產品供保健用，請依建議攝取量食用</li>
+                    </ul>
             </div>
-        </div>
-        <div class="productpage-first-section-right">
-            <div class="product-introduction">
-                <h1>vitaC 綜合益生菌</h1>
-                <ul>
-                    <li>健康食品認證：輔助調節過敏體質</li>
-                    <li>多元優勢菌株： 含300億活性益生菌</li>
-                    <li>專利包埋技術： 採用專利充碳包埋技術，保護益生菌直達腸道，有效定殖。</li>
-                    <li>添加益生質： 搭配益生質，提供益生菌養分，促進生長。</li>
-                    <li>純粹無添加： 無人工香料、色素、防腐劑，成分簡單更安心。</li>
-                    <li>品質嚴格把關：台灣 GMP 認證，多項檢驗合格。</li>
-                </ul>
-                <p class="cost">$ 1300</p>
-            </div>
-            <div class="quantity-wrapper">
-                <span>數量</span>
-                <button class="minusbtn">-</button>
-                <input type="text" class="qty-input" value="1">
-                <button class="plusbtn">+</button>
-            </div>
-            <div class="btns">
-                <a href="cart-list.html"><button class="buybtn">立即購買</button></a>
-                <button class="addtocartbtn">加入購物車</button>
-            </div>
-        </div>
-    </div>
-    <div class="productpage-content">
-        <h2>vitaC綜合益生菌：為您的腸道注入純粹活力</h2>
-        <p>您的腸道，是維持全身機能的關鍵樞紐。當好菌與壞菌達到和諧平衡，身體自然充滿活力。vitaC 綜合益生菌 以簡約純粹的配方，結合多種優勢菌株、專利保護技術與益生質，溫和呵護您的腸道健康，讓您由內而外煥發健康光彩。</p>
-        <h2>產品特色：</h2>
-            <ul>
-                <li>多元優勢菌株，共築健康防線： 我們嚴選多種對人體有益的活性益生菌，包含：
-                <ul class="subli">
-                    <li class="subli">A 菌 (嗜酸乳桿菌)： 常見且重要的益生菌，有助於調整菌叢生態，維持消化道機能。</li>
-                    <li class="subli">B 菌 (比菲德氏龍根菌)： 嬰幼兒時期即存在的重要菌種，能幫助消化，維持腸道健康。</li>
-                    <li class="subli">C 菌 (乾酪乳桿菌) ： 耐酸性佳，有助於改變細菌叢生態，使排便順暢。</li>
-                </ul>
-                </li>
-                <li>專利充碳技術，層層保護直達： 為了確保珍貴的益生菌能順利抵達腸道並發揮作用，我們採用先進的包埋技術，猶如為每一顆益生菌穿上堅固的保護衣，有效抵抗胃酸、膽鹼等消化液的侵蝕，大幅提升益生菌的存活率，使其能完整送達腸道，成功定殖，釋放活性。</li>
-                <li>添加益生質 ，好菌的活力補給： 我們貼心添加益生質，能有效促進腸道內好菌的生長與繁殖，維持腸道菌叢的健康平衡，讓好菌更有活力地守護您的消化道。</li>
-                <li>純粹承諾，無不必要的負擔： vitaC 堅持提供純淨、無負擔的保健選擇。本產品 不添加人工香料、人工色素、化學防腐劑 等非必要成分，讓您補充好菌的同時，也能避免攝取多餘的添加物，守護您的健康從純粹開始。</li>
-                <li>嚴格品質把關，安心看得見： 本產品於台灣通過 GMP 認證的專業廠房生產製造。從原料的嚴選、生產過程的嚴格監控，到最終成品的品質檢驗，每一個環節都符合高標準規範，確保產品的安全性與有效性，讓您安心食用。</li>
-                <li>小分子技術，吸收更有效率：我們採用先進的小分子技術，將益生菌活性成分細化，使其更容易被腸道吸收利用，提升保健效果。</li>
-                <li>常溫保存，隨時補充好菌：本產品採用特殊技術，無需冷藏，方便您隨身攜帶，隨時隨地補充好菌，維持腸道健康。</li>
-            </ul>
-            <h2>益生菌常見問題 Q&A：</h2>
-            <p>Q：益生菌什麼時候吃最好？</p>
-            <p>A： 建議空腹或睡前食用，避開胃酸影響，幫助益生菌順利抵達腸道。部分產品亦有特殊建議，請參考產品標示</p>
-            <p>Q：益生菌需要冰嗎？</p>
-            <p>A： 多數益生菌產品建議存放於陰涼乾燥處即可，部分特殊菌株或劑型可能需要冷藏，請依照產品標示說明保存。
-            </p>
-            <p>Q：吃益生菌會有副作用嗎？</p>
-            <p>A： 少數人在初期可能會有輕微脹氣或排氣等調整反應，通常幾天後會逐漸緩解。若不適感持續，建議暫停使用並諮詢專業人士。</p>
-            <p>Q：孕婦或小孩可以吃益生菌嗎？</p>
-            <p>A： 一般情況下孕婦和小孩可以食用益生菌，但建議選擇適合其年齡層的產品，並在諮詢醫師或藥師後使用更佳。</p>
-            <p>Q：益生菌要吃多久才有效？</p>
-            <p>A： 益生菌的保健效果因人而異，通常需要持續食用一段時間才能感受到變化，建議至少持續食用 1-3 個月。</p>
-            <p>Q：益生菌菌數越高越好嗎？</p>
-            <p>A： 並非如此，重點在於菌株的種類與活性，以及是否能順利抵達腸道定殖。選擇適合自身需求的優質菌株更重要。</p>
-            <p>Q：益生菌可以和藥物一起吃嗎？</p>
-            <p>A： 益生菌與多數藥物沒有直接衝突，但為避免影響藥效，建議間隔 1-2 小時以上食用，或諮詢醫師或藥師。</p>
-            <p>Q：為什麼我的益生菌吃起來沒感覺？</p>
-            <p>A： 可能原因包括食用時間不對、劑量不足、菌株不適合個人體質，或腸道菌群失衡嚴重，建議調整食用方式或選擇其他產品。</p>
-            <p>Q：益生菌可以幫助排便嗎？</p>
-            <p>A： 部分益生菌具有促進腸道蠕動、增加糞便體積的作用，有助於改善排便不順暢的情況。</p>
-            <p>Q：益生菌除了幫助消化還有其他功效嗎？</p>
-            <p>A： 是的，部分益生菌經研究證實具有調整體質、提升保護力、維持菌叢平衡等多重健康益處。</p>
-            <h2>商品規格</h2>
-            <p>主要成分：副乾酪乳桿菌、鼠李糖乳桿菌、嗜酸乳桿菌、比菲德氏龍根菌、菊苣纖維 (益生元)</p>
-            <p>內容量： 30 包/盒，每包 2 公克</p>
-            <p>建議用量： 每日 1 包，可直接撕開食用或搭配常溫水或飲品食用。</p>
-            <p>保存期限： 一年</p>
-            <p>原產地： 台灣</p>
-            <p>保存方法： 請置於陰涼乾燥處，避免陽光直射。開封後請儘速食用完畢。</p>
-            <h3>注意事項：</h3>
-            <ul class="caution">
-                <li>本產品含有牛奶及甲殼類製品，不適合對其過敏體質者食用。</li>
-                <li>請洽詢醫師或營養師有關食用本品之意見</li>
-                <li>均衡的飲食及適當的運動為身體健康的基礎</li>
-                <li>本產品供保健用，請依建議攝取量食用</li>
-            </ul>
-    </div>
-</section>
+        </section>
 <!-- footer-start -->
-<div class="container-large">
-    <footer>
-        <div class="footer-container">
-            <div class="company-information">
-                <p>公司資訊</p>
-                <ul>
-                    <li>地址：桃園市信義區中正街5號</li>
-                    <li>電話：03-7777-777</li>
-                    <li>服務時間：9:00~18:00</li>
-                </ul>
-            </div>
-            <div class="shopping-instruction">
-                <p>購物說明</p>
-                <ul>
-                    <a href="#"><li>訂單問題</li></a>
-                    <a href="#"><li>退換貨</li></a>
-                    <a href="#"><li>服務條款</li></a>
-                    <a href="#"><li>隱私政策</li></a>
-                </ul>
-            </div>
-            <div class="membership">
-                <p>會員服務</p>
-                <ul>
-                    <a href="#"><li>會員制度</li></a>
-                    <a href="#"><li>會員中心</li></a>
-                    <a href="#"><li>聯絡我們</li></a>
-                </ul>
-            </div>
-            <div class="follow-us">
-                <p>追蹤我們</p>
-                <ul>
-                    <a href="#"><li><img src="picture/facebookicon.png" alt=""></li></a>
-                    <a href="#"><li><img src="picture/instaicon.png" alt=""></li></a>
-                    <a href="#"><li><img src="picture/lineicon.png" alt=""></li></a>
-                </ul>
-            </div>
+        <div class="container-large">
+            <footer>
+                <div class="footer-container">
+                    <div class="company-information">
+                        <p>公司資訊</p>
+                        <ul>
+                            <li>地址：桃園市信義區中正街5號</li>
+                            <li>電話：03-7777-777</li>
+                            <li>服務時間：9:00~18:00</li>
+                        </ul>
+                    </div>
+                    <div class="shopping-instruction">
+                        <p>購物說明</p>
+                        <ul>
+                            <a href="#"><li>訂單問題</li></a>
+                            <a href="#"><li>退換貨</li></a>
+                            <a href="#"><li>服務條款</li></a>
+                            <a href="#"><li>隱私政策</li></a>
+                        </ul>
+                    </div>
+                    <div class="membership">
+                        <p>會員服務</p>
+                        <ul>
+                            <a href="#"><li>會員制度</li></a>
+                            <a href="#"><li>會員中心</li></a>
+                            <a href="#"><li>聯絡我們</li></a>
+                        </ul>
+                    </div>
+                    <div class="follow-us">
+                        <p>追蹤我們</p>
+                        <ul>
+                            <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
+                            <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
+                            <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
-</div>
-</body>
+        <script src="all.js"></script>
+    </body>
 </html>

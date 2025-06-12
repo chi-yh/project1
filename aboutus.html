@@ -1,202 +1,216 @@
 <!DOCTYPE html>
-    <html lang="zh-TW">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>vitaC的營養師團隊</title>
-            <meta name="description" content="在追求健康與美麗的道路上，vitaC 深信「簡約之道，Less is More」的真諦。如同我們精心挑選的每一項成分，我們的專業營養師團隊亦秉持著純粹、專業的精神，以簡潔明瞭的知識，引導你走向由內而外的健康美學。">
-            <link rel="stylesheet" href="style.css">
-            <link rel="stylesheet" href="grid.css">
-        </head>
-        <body>
-            <div class="container-large">
-                <header class="main-header">
-                    <input type="checkbox" name="" id="menu-switch">
-                    <div class="logo">
-                            <a href="index.html"><img src="picture/logo.png" alt=""></a>
-                    </div>
-                    <nav class="main-nav header-right">
-                        <ul class="menu">
-                            <li><a href="#">關於我們</a></li>
-                            <li>
-                                <a href="product-list-all.html">所有商品</a>
-                                <input type="checkbox" name="" id="m1">
-                                <label for="m1" class="icon">
-                                    <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
-                                </label>
-                                    <ul class="submenu">
-                                        <li><a href="product-list-Probiotics.html">益生菌</a></li>
-                                        <li><a href="product-list-vitaminb.html">維他命b</a></li>
-                                        <li><a href="product-list-vitaminc.html">維他命c</a></li>
-                                        <li><a href="product-list-lutein.html">葉黃素</a></li>
-                                        <li><a href="product-list-fishoil.html">魚油</a></li>
-                                        <li><a href="product-list-whey.html">乳清蛋白</a></li>
-                                    </ul>
-                            </li>
-                            <li><a href="feedback-list.html">顧客推薦</a></li>
-                            <li><a href="blog.html">健康知識</a></li>  
-                        </ul>
-                    </nav>
-                    <div class="header-icons nav-right">
-                        <div class="navicons">
-                            <a href="search-page.html"><svg width="25" height="25" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="currentcolor"/>
-                                </svg></a>
-                                <a href="cart-list.html"><svg width="25" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentcolor"/>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vitaC 專業營養師團隊介紹</title>
+        <meta name="description" content="">
+        <link rel="icon" href="picture/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <header class="main-header container-large">
+            <div class="logo">
+                <a href="index.html"><img src="picture/logo.png" alt=""></a>
+            </div>
+            <ul class="menu open hidden" id="mobileMenu">
+                <li><a href="aboutus.html">關於我們</a></li>
+                <li>
+                    <a href="product-list-all.html">所有商品</a>
+                    <input type="checkbox" name="" id="m1">
+                    <label for="m1" class="icon">
+                        <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+                    </label>
+                    <ul class="submenu">
+                        <li><a href="product-list-Probiotics.html">益生菌</a></li>
+                        <li><a href="product-list-vitaminb.html">維他命b</a></li>
+                        <li><a href="product-list-vitaminc.html">維他命c</a></li>
+                        <li><a href="product-list-lutein.html">葉黃素</a></li>
+                        <li><a href="product-list-fishoil.html">魚油</a></li>
+                        <li><a href="product-list-whey.html">乳清蛋白</a></li>
+                    </ul>
+                    </li>
+                <li><a href="feedback-list.html">顧客推薦</a></li>
+                <li><a href="blog.html">健康知識</a></li>  
+            </ul>
+            <div class="nav-icons">
+                <div class="search-container">
+                    <form class="search-form" action="/search" method="get">
+                        <input type="text" name="q" placeholder="搜尋商品" class="search-input">
+                    </form>
+                        <button class="nav-search">
+                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="#fff"/>
                                 </svg>
-                                </a>
-                        </div>
-                            <label for="menu-switch" class="hb"><svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></label>
-                        </div>
-                </header>
+                            </button>
+                </div>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M6 40.8V42h36v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C35.92 28 33.68 28 29.2 28H18.8c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C6 34.08 6 36.32 6 40.8"/>
+                    </svg>
+                </a>
+                <a href="" class="nav-cart">
+                    <svg width="30" height="30" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentColor"/>
+                    </svg>
+                    <span id="globalCartBadg" class="cart-badge">0</span>
+                </a>
+                <button class="hb" aria-label="切換選單">
+                    <span class="hbicon bar-icon"><svg height="32px" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </span>
+                    <span class="hbicon close-hb hidden"><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="25" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m5 19l7-7m0 0l7-7m-7 7L5 5m7 7l7 7" /></svg>
+                    </span>
+                </button>
+        </header>
 <!-- nav-end -->
 <!-- breadcrumb -->
-<div class="breadcrumb" aria-label="breadcrumb">
-    <ol>
-        <li><a href="index.html">首頁</a></li>
-        <li aria-current="page">關於我們</li>
-    </ol>
-</div>
-<!-- breadcrumb-end -->
-<section class="container">
-    <div class="about-us-first-section">
-        <h1>vita C 營養師團隊</h1>
-        <div class="about-us-pic">
-            <img src="picture/nutritionistimg/nutritionistall.jpg" alt="專業營養師團隊">
+        <div class="breadcrumb" aria-label="breadcrumb">
+            <ol>
+                <li><a href="index.html">首頁</a></li>
+                <li aria-current="page">關於我們</li>
+            </ol>
         </div>
-        <p>
-            在追求健康與美麗的道路上，vitaC 深信「簡約之道，Less is More」的真諦。如同我們精心挑選的每一項成分，我們的專業營養師團隊亦秉持著純粹、專業的精神，以簡潔明瞭的知識，引導你走向由內而外的健康美學。
+        <!-- breadcrumb-end -->
+        <section class="container">
+            <div class="about-us-first-section">
+                <h1>vita C 營養師團隊</h1>
+                <div class="about-us-pic">
+                    <img src="picture/nutritionistimg/nutritionistall.jpg" alt="專業營養師團隊">
+                </div>
+                <p>
+                    在追求健康與美麗的道路上，vitaC 深信「簡約之道，Less is More」的真諦。如同我們精心挑選的每一項成分，我們的專業營養師團隊亦秉持著純粹、專業的精神，以簡潔明瞭的知識，引導你走向由內而外的健康美學。
 
-            vitaC 的營養師團隊，由五位資深營養師組成。他們不僅擁有國家級營養師執照，更在臨床營養、保健食品諮詢、健康教育等領域累積了豐富的實務經驗。每一位營養師都對生命科學充滿熱忱，並持續精進專業知識，緊跟最新的營養學研究趨勢，為您提供最值得信賴的健康建議。
-            
-            我們的團隊深知，現代人生活忙碌，往往在琳瑯滿目的健康資訊中迷失方向。因此，vitaC 的營養師們致力於將複雜的營養學知識，轉化為簡潔易懂的語言，透過專業的文章、貼心的諮詢，幫助你釐清保健觀念，選擇真正適合自己的產品。
-        </p>
-    </div>
-    <div class="each-nutritionist">
-        <div class="nutritionist-pic">
-            <img src="picture/nutritionistimg/nutritionist2.jpg" alt="營養師Gary">
-            <p>Gray</p>
-        </div>
-        <div class="nutritionist-pic">
-            <img src="picture/nutritionistimg/nutritionist4.jpg" alt="營養師Candice">
-            <p>Alice</p>
-        </div>
-        <div class="nutritionist-pic">
-            <img src="picture/nutritionistimg/nutritionist3.jpg" alt="營養師Shelly">
-            <p>Shelly</p>
-        </div>
-        <div class="nutritionist-pic">
-            <img src="picture/nutritionistimg/nutritionist5.jpg" alt="營養師Gofi">
-            <p>Gofi</p>
-        </div>
-        <div class="nutritionist-pic">
-            <img src="picture/nutritionistimg/nutritionist1.jpg" alt="營養師Jason">
-            <p>Jason</p>
-        </div>
-    </div>
-    <div class="about-us-second-section">
-        <h2>vitaC 的3大堅持</h2>
-        <div class="value-section">
-            <div class="box">
-                <p id="first-box">純粹</p>
-                <span>回歸本質的健康承諾</span>
-                <div class="box-pic">
-                    <img src="picture/about-us/1.jpg" alt="">
+                    vitaC 的營養師團隊，由五位資深營養師組成。他們不僅擁有國家級營養師執照，更在臨床營養、保健食品諮詢、健康教育等領域累積了豐富的實務經驗。每一位營養師都對生命科學充滿熱忱，並持續精進專業知識，緊跟最新的營養學研究趨勢，為您提供最值得信賴的健康建議。
+                    
+                    我們的團隊深知，現代人生活忙碌，往往在琳瑯滿目的健康資訊中迷失方向。因此，vitaC 的營養師們致力於將複雜的營養學知識，轉化為簡潔易懂的語言，透過專業的文章、貼心的諮詢，幫助你釐清保健觀念，選擇真正適合自己的產品。
+                </p>
+            </div>
+            <div class="each-nutritionist">
+                <div class="nutritionist-pic">
+                    <img src="picture/nutritionistimg/nutritionist2.jpg" alt="營養師Gary">
+                    <p>Gray</p>
+                </div>
+                <div class="nutritionist-pic">
+                    <img src="picture/nutritionistimg/nutritionist4.jpg" alt="營養師Candice">
+                    <p>Alice</p>
+                </div>
+                <div class="nutritionist-pic">
+                    <img src="picture/nutritionistimg/nutritionist3.jpg" alt="營養師Shelly">
+                    <p>Shelly</p>
+                </div>
+                <div class="nutritionist-pic">
+                    <img src="picture/nutritionistimg/nutritionist5.jpg" alt="營養師Gofi">
+                    <p>Gofi</p>
+                </div>
+                <div class="nutritionist-pic">
+                    <img src="picture/nutritionistimg/nutritionist1.jpg" alt="營養師Jason">
+                    <p>Jason</p>
                 </div>
             </div>
-            <div class="value-content">
-                <p>
-                vitaC 深信，真正的健康源於純粹。我們摒棄過多不必要的添加物，例如人工色素、香料、防腐劑等，致力於提供成分簡單、直接有效的保健食品。我們的產品配方經過仔細篩選，僅選用對人體有益的關鍵成分，並以最精簡的方式呈現。這不僅降低了身體不必要的負擔，更能讓您清楚了解自己所攝取的每一份營養。
+            <div class="about-us-second-section">
+                <h2>vitaC 的3大堅持</h2>
+                <div class="value-section">
+                    <div class="box">
+                        <p id="first-box">純粹</p>
+                        <span>回歸本質的健康承諾</span>
+                        <div class="box-pic">
+                            <img src="picture/about-us/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="value-content">
+                        <p>
+                        vitaC 深信，真正的健康源於純粹。我們摒棄過多不必要的添加物，例如人工色素、香料、防腐劑等，致力於提供成分簡單、直接有效的保健食品。我們的產品配方經過仔細篩選，僅選用對人體有益的關鍵成分，並以最精簡的方式呈現。這不僅降低了身體不必要的負擔，更能讓您清楚了解自己所攝取的每一份營養。
 
-                Less is More」是 vitaC 對純粹的堅持。我們相信，透過單純的成分組合，更能發揮其天然的功效，讓身體自然吸收與利用。選擇 vitaC，您選擇的是一份對身體的尊重，一份回歸健康本質的承諾。我們以純粹的心，為您打造無負擔的健康體驗。
-            </p>
-            </div>
-        </div>
-        <div class="value-section">
-            <div class="box">
-                <p id="second-box">安心</p>
-                <span>從源頭開始的嚴謹守護</span>
-                <div class="box-pic">
-                    <img src="picture/about-us/2.jpg" alt="">
+                        Less is More」是 vitaC 對純粹的堅持。我們相信，透過單純的成分組合，更能發揮其天然的功效，讓身體自然吸收與利用。選擇 vitaC，您選擇的是一份對身體的尊重，一份回歸健康本質的承諾。我們以純粹的心，為您打造無負擔的健康體驗。
+                    </p>
+                    </div>
+                </div>
+                <div class="value-section">
+                    <div class="box">
+                        <p id="second-box">安心</p>
+                        <span>從源頭開始的嚴謹守護</span>
+                        <div class="box-pic">
+                            <img src="picture/about-us/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="value-content">
+                        <p>
+                            安心是 vitaC 對您的首要承諾。我們深知，保健食品的安全性至關重要，因此，我們從產品的源頭就開始嚴格把關。每一項原料的選擇，都經過仔細的評估與篩選，確保其來源的可靠性與安全性。我們與信譽良好的供應商合作，追溯原料的生產履歷，確保每一份原料都符合國際安全標準。
+
+                            在生產過程中，vitaC 採用嚴格的品質管理體系，遵循優良製造規範 (GMP) 的標準流程。從原料的檢驗、生產的監控，到成品的測試，每一個環節都力求精確與嚴謹，確保產品的純淨與安全。我們更定期將產品送至第三方公正單位進行檢驗，以確保其品質符合最高標準。選擇 vitaC，你選擇的是一份安心的保障，一份對健康的堅持。我們以嚴謹的態度，守護你與家人的健康。
+                    </p>
+                    </div>
+                </div>
+                <div class="value-section">
+                    <div class="box">
+                        <p id="third-box">專業</p>
+                        <span>科學為本的健康指引</span>
+                        <div class="box-pic">
+                            <img src="picture/about-us/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="value-content">
+                        <p>
+                        專業是 vitaC 產品的核心價值。我們的產品研發團隊，由資深的營養師與健康科學專家組成，他們以最新的科學研究為基礎，結合豐富的實務經驗，打造出真正有益於健康的保健食品。
+
+                        vitaC 不僅提供優質的產品，更致力於傳遞正確的健康知識。我們的健康專欄與諮詢服務，由專業營養師團隊提供支持，為您解答保健疑問，提供個人化的健康建議。我們相信，透過專業的知識引導，能幫助您更了解自己的身體需求，做出明智的健康選擇。選擇 vitaC，您選擇的是一份專業的健康指引，一份以科學為本的信賴。我們以專業的知識，為您的健康保駕護航。
+                    </p>
+                    </div>
                 </div>
             </div>
-            <div class="value-content">
-                <p>
-                    安心是 vitaC 對您的首要承諾。我們深知，保健食品的安全性至關重要，因此，我們從產品的源頭就開始嚴格把關。每一項原料的選擇，都經過仔細的評估與篩選，確保其來源的可靠性與安全性。我們與信譽良好的供應商合作，追溯原料的生產履歷，確保每一份原料都符合國際安全標準。
-
-                    在生產過程中，vitaC 採用嚴格的品質管理體系，遵循優良製造規範 (GMP) 的標準流程。從原料的檢驗、生產的監控，到成品的測試，每一個環節都力求精確與嚴謹，確保產品的純淨與安全。我們更定期將產品送至第三方公正單位進行檢驗，以確保其品質符合最高標準。選擇 vitaC，你選擇的是一份安心的保障，一份對健康的堅持。我們以嚴謹的態度，守護你與家人的健康。
-            </p>
-            </div>
-        </div>
-        <div class="value-section">
-            <div class="box">
-                <p id="third-box">專業</p>
-                <span>科學為本的健康指引</span>
-                <div class="box-pic">
-                    <img src="picture/about-us/3.jpg" alt="">
+            <div class="about-us-third">
+                <h2>小綠人認證，最安心的選則</h2>
+                <div class="clean-label">
+                    <img src="picture/about-us/clean-label.jpg" alt="">
                 </div>
-            </div>
-            <div class="value-content">
-                <p>
-                專業是 vitaC 產品的核心價值。我們的產品研發團隊，由資深的營養師與健康科學專家組成，他們以最新的科學研究為基礎，結合豐富的實務經驗，打造出真正有益於健康的保健食品。
+                <p>在琳瑯滿目的保健食品市場中，如何挑選真正安心、有效的產品，是每一位重視健康的消費者最關心的議題。vitaC 深知您的疑慮，因此，我們致力於追求卓越的品質與嚴謹的認證，為您的健康把關。其中，「小綠人」健康食品標章，便是您選擇 vitaC 保健食品時，最值得信賴的依據。
 
-                vitaC 不僅提供優質的產品，更致力於傳遞正確的健康知識。我們的健康專欄與諮詢服務，由專業營養師團隊提供支持，為您解答保健疑問，提供個人化的健康建議。我們相信，透過專業的知識引導，能幫助您更了解自己的身體需求，做出明智的健康選擇。選擇 vitaC，您選擇的是一份專業的健康指引，一份以科學為本的信賴。我們以專業的知識，為您的健康保駕護航。
+                「小綠人」標章不僅僅是一個圖案，它代表著台灣衛生福利部（TFDA）對該保健食品的嚴格審查與肯定。每一項獲得小綠人標章的產品，都必須經過科學實驗證明，證實其確實具有宣稱的保健功效，並且在安全性方面符合國家標準。這是一道道嚴謹的關卡，確保消費者所選購的，是真正對健康有益且安全的產品。
             </p>
             </div>
-        </div>
-    </div>
-    <div class="about-us-third">
-        <h2>小綠人認證，最安心的選則</h2>
-        <div class="clean-label">
-            <img src="picture/about-us/clean-label.jpg" alt="">
-        </div>
-        <p>在琳瑯滿目的保健食品市場中，如何挑選真正安心、有效的產品，是每一位重視健康的消費者最關心的議題。vitaC 深知您的疑慮，因此，我們致力於追求卓越的品質與嚴謹的認證，為您的健康把關。其中，「小綠人」健康食品標章，便是您選擇 vitaC 保健食品時，最值得信賴的依據。
-
-        「小綠人」標章不僅僅是一個圖案，它代表著台灣衛生福利部（TFDA）對該保健食品的嚴格審查與肯定。每一項獲得小綠人標章的產品，都必須經過科學實驗證明，證實其確實具有宣稱的保健功效，並且在安全性方面符合國家標準。這是一道道嚴謹的關卡，確保消費者所選購的，是真正對健康有益且安全的產品。
-    </p>
-    </div>
-</section>
+        </section>
 <!-- footer-start -->
-<div class="container-large">
-    <footer>
-        <div class="footer-container">
-            <div class="company-information">
-                <p>公司資訊</p>
-                <ul>
-                    <li>地址：桃園市信義區中正街5號</li>
-                    <li>電話：03-7777-777</li>
-                    <li>服務時間：9:00~18:00</li>
-                </ul>
-            </div>
-            <div class="shopping-instruction">
-                <p>購物說明</p>
-                <ul>
-                    <a href="#"><li>訂單問題</li></a>
-                    <a href="#"><li>退換貨</li></a>
-                    <a href="#"><li>服務條款</li></a>
-                    <a href="#"><li>隱私政策</li></a>
-                </ul>
-            </div>
-            <div class="membership">
-                <p>會員服務</p>
-                <ul>
-                    <a href="#"><li>會員制度</li></a>
-                    <a href="#"><li>會員中心</li></a>
-                    <a href="#"><li>聯絡我們</li></a>
-                </ul>
-            </div>
-            <div class="follow-us">
-                <p>追蹤我們</p>
-                <ul>
-                    <a href="#"><li><img src="picture/facebookicon.png" alt=""></li></a>
-                    <a href="#"><li><img src="picture/instaicon.png" alt=""></li></a>
-                    <a href="#"><li><img src="picture/lineicon.png" alt=""></li></a>
-                </ul>
-            </div>
+        <div class="container-large">
+            <footer>
+                <div class="footer-container">
+                    <div class="company-information">
+                        <p>公司資訊</p>
+                        <ul>
+                            <li>地址：桃園市信義區中正街5號</li>
+                            <li>電話：03-7777-777</li>
+                            <li>服務時間：9:00~18:00</li>
+                        </ul>
+                    </div>
+                    <div class="shopping-instruction">
+                        <p>購物說明</p>
+                        <ul>
+                            <a href="#"><li>訂單問題</li></a>
+                            <a href="#"><li>退換貨</li></a>
+                            <a href="#"><li>服務條款</li></a>
+                            <a href="#"><li>隱私政策</li></a>
+                        </ul>
+                    </div>
+                    <div class="membership">
+                        <p>會員服務</p>
+                        <ul>
+                            <a href="#"><li>會員制度</li></a>
+                            <a href="#"><li>會員中心</li></a>
+                            <a href="#"><li>聯絡我們</li></a>
+                        </ul>
+                    </div>
+                    <div class="follow-us">
+                        <p>追蹤我們</p>
+                        <ul>
+                            <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
+                            <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
+                            <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
-</div>
+        <script src="all.js"></script>
 </body>
 </html>

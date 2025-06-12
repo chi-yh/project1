@@ -1,192 +1,206 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="grid.css">
-    <script src="all.js" defer></script>
-    <title>vita C 金盞花葉黃素 30粒/罐</title>
-</head>
-<body>
-    <div class="container-large">
-        <header class="main-header">
-            <input type="checkbox" name="" id="menu-switch">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vita C 金盞花葉黃素 30粒/罐</title>
+        <meta name="description" content="在高強度用眼的數位時代，長時間盯著螢幕與手機讓眼睛疲勞、視覺模糊。vitaC 葉黃素精華錠精選高濃度游離型葉黃素，搭配玉米黃素、花青素、維生素E等協同成分，打造全面護眼配方。溫和好吸收的錠劑設計，讓你每天輕鬆補足眼睛營養，從內改善視覺壓力，維持日常明亮好視力。">
+        <link rel="icon" href="picture/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <header class="main-header container-large">
             <div class="logo">
-            <a href="index.html"><img src="picture/logo.png" alt=""></a>
+                <a href="index.html"><img src="picture/logo.png" alt=""></a>
             </div>
-            <nav class="main-nav header-right">
-                <ul class="menu">
-                    <li><a href="aboutus.html">關於我們</a></li>
-                    <li>
-                        <a href="product-list-all.html">所有商品</a>
-                        <input type="checkbox" name="" id="m1">
-                        <label for="m1" class="icon">
-                            <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
-                        </label>
-                        <ul class="submenu">
-                            <li><a href="product-list-Probiotics.html">益生菌</a></li>
-                            <li><a href="product-list-vitaminb.html">維他命b</a></li>
-                            <li><a href="product-list-vitaminc.html">維他命c</a></li>
-                            <li><a href="product-list-lutein.html">葉黃素</a></li>
-                            <li><a href="product-list-fishoil.html">魚油</a></li>
-                            <li><a href="product-list-whey.html">乳清蛋白</a></li>
-                        </ul>
+            <ul class="menu open hidden" id="mobileMenu">
+                <li><a href="aboutus.html">關於我們</a></li>
+                <li>
+                    <a href="product-list-all.html">所有商品</a>
+                    <input type="checkbox" name="" id="m1">
+                    <label for="m1" class="icon">
+                        <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
+                    </label>
+                    <ul class="submenu">
+                        <li><a href="product-list-Probiotics.html">益生菌</a></li>
+                        <li><a href="product-list-vitaminb.html">維他命b</a></li>
+                        <li><a href="product-list-vitaminc.html">維他命c</a></li>
+                        <li><a href="product-list-lutein.html">葉黃素</a></li>
+                        <li><a href="product-list-fishoil.html">魚油</a></li>
+                        <li><a href="product-list-whey.html">乳清蛋白</a></li>
+                    </ul>
                     </li>
-                    <li><a href="feedback-list.html">顧客推薦</a></li>
-                    <li><a href="blog.html">健康知識</a></li>
-                </ul>
-            </nav>
-            <div class="header-icons nav-right">
-                <div class="navicons">
-                <a href="search-page.html"><svg width="25" height="25" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="currentcolor"/>
-                    </svg></a>
-                    <a href="cart-list.html"><svg width="25" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentcolor"/>
-                    </svg>
-                    </a>
+                <li><a href="feedback-list.html">顧客推薦</a></li>
+                <li><a href="blog.html">健康知識</a></li>  
+            </ul>
+            <div class="nav-icons">
+                <div class="search-container">
+                    <form class="search-form" action="/search" method="get">
+                        <input type="text" name="q" placeholder="搜尋商品" class="search-input">
+                    </form>
+                        <button class="nav-search">
+                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="#fff"/>
+                                </svg>
+                            </button>
                 </div>
-                    <label for="menu-switch" class="hb"><svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></label>
-            </div>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M6 40.8V42h36v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C35.92 28 33.68 28 29.2 28H18.8c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C6 34.08 6 36.32 6 40.8"/>
+                    </svg>
+                </a>
+                <a href="" class="nav-cart">
+                    <svg width="30" height="30" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentColor"/>
+                    </svg>
+                    <span id="globalCartBadg" class="cart-badge">0</span>
+                </a>
+                <button class="hb" aria-label="切換選單">
+                    <span class="hbicon bar-icon"><svg height="32px" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </span>
+                    <span class="hbicon close-hb hidden"><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="25" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m5 19l7-7m0 0l7-7m-7 7L5 5m7 7l7 7" /></svg>
+                    </span>
+                </button>
         </header>
 <!-- nav-end -->
 <!-- breadcrumb -->
-<div class="breadcrumb" aria-label="breadcrumb">
-    <ol>
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="product-list-all.html">所有商品</a></li>
-        <li><a href="product-list-lutein.html">vita C 金盞花葉黃素推薦</a></li>
-        <li aria-current="page">vita C 金盞花葉黃素 30粒/罐</li>
-    </ol>
-</div>
+        <div class="breadcrumb" aria-label="breadcrumb">
+            <ol>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="product-list-all.html">所有商品</a></li>
+                <li><a href="product-list-lutein.html">vita C 金盞花葉黃素推薦</a></li>
+                <li aria-current="page">vita C 金盞花葉黃素 30粒/罐</li>
+            </ol>
+        </div>
 <!-- breadcrumb-end -->
-<section class="container">
-    <div class="productpage-first-section">
-        <div class="productimg">
-            <div class="large-img">
-                <img src="picture/product-pic/lutienproduct-5.jpg" alt="葉黃素錠">
+        <section class="container">
+            <div class="productpage-first-section">
+                <div class="productimg">
+                    <div class="large-img">
+                        <img src="picture/product-pic/lutienproduct-5.jpg" alt="葉黃素錠">
+                    </div>
+                    <div class="small-img">
+                        <img src="picture/product-pic/luteinproduct-2.jpg" alt="葉黃素錠各組合">
+                        <img src="picture/product-pic/luteinproduct-3.jpg" alt="葉黃素錠">
+                        <img src="picture/product-pic/luteinproduct-4.jpg" alt="葉黃素錠">
+                    </div>
+                </div>
+                <div class="productpage-first-section-right">
+                    <div class="product-introduction">
+                        <h1>vitaC 金盞花葉黃素</h1>
+                            <ul>
+                                <li>高單位葉黃素：每錠含高濃度游離型葉黃素，有助濾藍光、提升視覺清晰。</li>
+                                <li>黃金複方配比：添加玉米黃素、花青素與維生素E，打造全方位護眼配方。</li>
+                                <li>脂溶性吸收佳：建議餐後食用，搭配油脂吸收率更高，效果更顯著。</li>
+                                <li>小錠設計好吞服：精緻錠狀設計，體積輕巧，方便每日補充不易卡喉。</li>
+                                <li>無多餘添加物：不含人工色素、防腐劑與甜味劑，配方單純更安心。</li>
+                                <li>台灣製造安心把關：GMP 認證廠製造，成分來源透明，品質值得信賴。</li>
+                            </ul>
+                        <p class="cost">$ 1500</p>
+                    </div>
+                    <div class="quantity-wrapper">
+                        <span>數量</span>
+                        <button class="minusbtn">-</button>
+                        <input type="text" class="qty-input" value="1">
+                        <button class="plusbtn">+</button>
+                    </div>
+                    <div class="btns">
+                        <a href="cart-list.html"><button class="buybtn">立即購買</button></a>
+                        <button class="addtocartbtn">加入購物車</button>
+                    </div>
+                </div>
             </div>
-            <div class="small-img">
-                <img src="picture/product-pic/luteinproduct-2.jpg" alt="葉黃素錠各組合">
-                <img src="picture/product-pic/luteinproduct-3.jpg" alt="葉黃素錠">
-                <img src="picture/product-pic/luteinproduct-4.jpg" alt="葉黃素錠">
-            </div>
-        </div>
-        <div class="productpage-first-section-right">
-            <div class="product-introduction">
-                <h1>vitaC 金盞花葉黃素</h1>
+            <div class="productpage-content">
+                <h2>vitaC 葉黃素精華錠：為雙眼注入清晰活力</h2>
+                <p>在高強度用眼的數位時代，長時間盯著螢幕與手機讓眼睛疲勞、視覺模糊。vitaC 葉黃素精華錠精選高濃度游離型葉黃素，搭配玉米黃素、花青素、維生素E等協同成分，打造全面護眼配方。溫和好吸收的錠劑設計，讓你每天輕鬆補足眼睛營養，從內改善視覺壓力，維持日常明亮好視力。
+                </p>
+                </p>
+                <h2>產品特色：</h2>
+                <ul>
+                    <li><strong>高濃度游離型葉黃素：</strong> 採用人體易吸收的游離型葉黃素，每錠高含量 10mg，有效濾除藍光、穩定視網膜健康，幫助維持清晰視力，是現代人眼睛保養的關鍵成分。</li>
+                    <li><strong>複方護眼更全面：</strong> 特別添加玉米黃素、山桑子萃取（花青素）與維生素E，結合抗氧化與視覺防護力，從黃斑部、視網膜到微血管循環，全方位呵護雙眼健康。</li>
+                    <li><strong>脂溶性配方吸收佳：</strong> 葉黃素屬脂溶性營養素，搭配油脂攝取吸收更有效。建議餐後食用，能提升體內利用率，幫助養成穩定補充的護眼習慣。</li>
+                    <li><strong>錠狀小顆好吞服：</strong> 採用小錠劑設計，體積輕巧不卡喉，適合長期補充，無論是長輩、學生或需長時間使用 3C 的族群都能安心食用。</li>
+                    <li><strong>無添加純粹配方：</strong> 不含人工色素、甜味劑、防腐劑等多餘成分，配方純淨單純，降低身體負擔，是追求安心與清潔標示族群的護眼首選。</li>
+                    <li><strong>台灣製造品質保障：</strong> 產品於台灣 GMP 認證工廠製造，原料來源清楚，通過多項安全檢驗，從製程到品質全面把關，讓你每天補得安心，看得更清晰。</li>
+                </ul>
+                    <h2>葉黃素常見問題 Q&A</h2>
+                    <h3>Q：葉黃素什麼時候吃最好？</h3>
+                    <p>A：建議在餐後食用，因葉黃素為脂溶性營養素，與油脂同食可提升吸收效果。</p>
+
+                    <h3>Q：葉黃素適合哪些人補充？</h3>
+                    <p>A：長時間看螢幕、使用 3C 設備的上班族與學生，以及中老年族群皆建議補充。</p>
+
+                    <h3>Q：葉黃素和玉米黃素有什麼差別？</h3>
+                    <p>A：兩者皆為黃斑部重要成分，葉黃素主要濾藍光、玉米黃素則集中在視網膜中央，搭配補充效果更完整。</p>
+
+                    <h3>Q：需要長期吃嗎？</h3>
+                    <p>A：葉黃素需長期補充才能在體內累積濃度，一般建議持續食用 2–3 個月以上觀察成效。</p>
+                
+                    <h3>Q：孕婦或小孩可以吃嗎？</h3>
+                    <p>A：建議先諮詢醫師或營養師後再評估是否食用，並依年齡與劑量選擇合適產品。</p>
+
+                    <h2>商品規格</h2>
                     <ul>
-                        <li>高單位葉黃素：每錠含高濃度游離型葉黃素，有助濾藍光、提升視覺清晰。</li>
-                        <li>黃金複方配比：添加玉米黃素、花青素與維生素E，打造全方位護眼配方。</li>
-                        <li>脂溶性吸收佳：建議餐後食用，搭配油脂吸收率更高，效果更顯著。</li>
-                        <li>小錠設計好吞服：精緻錠狀設計，體積輕巧，方便每日補充不易卡喉。</li>
-                        <li>無多餘添加物：不含人工色素、防腐劑與甜味劑，配方單純更安心。</li>
-                        <li>台灣製造安心把關：GMP 認證廠製造，成分來源透明，品質值得信賴。</li>
+                        <li>主要成分：游離型葉黃素、玉米黃素、山桑子萃取物（含花青素）、維生素E</li>
+                        <li>內容量：30 錠 / 盒，每錠 500 毫克</li>
+                        <li>建議用量：每日 1 錠，建議餐後食用</li>
+                        <li>保存期限：二年</li>
+                        <li>原產地：台灣</li>
+                        <li>保存方法：請置於陰涼乾燥處，避免陽光直射。</li>
                     </ul>
-                <p class="cost">$ 1500</p>
+
+                    <h3>注意事項：</h3>
+                    <ul>
+                        <li>本產品含有天然植萃成分，若有沉澱或色差屬自然現象。</li>
+                        <li>懷孕、哺乳或特殊體質者，請先諮詢專業人員後食用。</li>
+                        <li>請依建議攝取量食用，多食無益。</li>
+                        <li>本產品為營養補充用途，不能替代醫療用途。</li>
+                    </ul>
             </div>
-            <div class="quantity-wrapper">
-                <span>數量</span>
-                <button class="minusbtn">-</button>
-                <input type="text" class="qty-input" value="1">
-                <button class="plusbtn">+</button>
-            </div>
-            <div class="btns">
-                <a href="cart-list.html"><button class="buybtn">立即購買</button></a>
-                <button class="addtocartbtn">加入購物車</button>
-            </div>
-        </div>
-    </div>
-    <div class="productpage-content">
-        <h2>vitaC 葉黃素精華錠：為雙眼注入清晰活力</h2>
-        <p>在高強度用眼的數位時代，長時間盯著螢幕與手機讓眼睛疲勞、視覺模糊。vitaC 葉黃素精華錠精選高濃度游離型葉黃素，搭配玉米黃素、花青素、維生素E等協同成分，打造全面護眼配方。溫和好吸收的錠劑設計，讓你每天輕鬆補足眼睛營養，從內改善視覺壓力，維持日常明亮好視力。
-        </p>
-        </p>
-        <h2>產品特色：</h2>
-        <ul>
-            <li><strong>高濃度游離型葉黃素：</strong> 採用人體易吸收的游離型葉黃素，每錠高含量 10mg，有效濾除藍光、穩定視網膜健康，幫助維持清晰視力，是現代人眼睛保養的關鍵成分。</li>
-            <li><strong>複方護眼更全面：</strong> 特別添加玉米黃素、山桑子萃取（花青素）與維生素E，結合抗氧化與視覺防護力，從黃斑部、視網膜到微血管循環，全方位呵護雙眼健康。</li>
-            <li><strong>脂溶性配方吸收佳：</strong> 葉黃素屬脂溶性營養素，搭配油脂攝取吸收更有效。建議餐後食用，能提升體內利用率，幫助養成穩定補充的護眼習慣。</li>
-            <li><strong>錠狀小顆好吞服：</strong> 採用小錠劑設計，體積輕巧不卡喉，適合長期補充，無論是長輩、學生或需長時間使用 3C 的族群都能安心食用。</li>
-            <li><strong>無添加純粹配方：</strong> 不含人工色素、甜味劑、防腐劑等多餘成分，配方純淨單純，降低身體負擔，是追求安心與清潔標示族群的護眼首選。</li>
-            <li><strong>台灣製造品質保障：</strong> 產品於台灣 GMP 認證工廠製造，原料來源清楚，通過多項安全檢驗，從製程到品質全面把關，讓你每天補得安心，看得更清晰。</li>
-        </ul>
-            <h2>葉黃素常見問題 Q&A</h2>
-            <h3>Q：葉黃素什麼時候吃最好？</h3>
-            <p>A：建議在餐後食用，因葉黃素為脂溶性營養素，與油脂同食可提升吸收效果。</p>
-
-            <h3>Q：葉黃素適合哪些人補充？</h3>
-            <p>A：長時間看螢幕、使用 3C 設備的上班族與學生，以及中老年族群皆建議補充。</p>
-
-            <h3>Q：葉黃素和玉米黃素有什麼差別？</h3>
-            <p>A：兩者皆為黃斑部重要成分，葉黃素主要濾藍光、玉米黃素則集中在視網膜中央，搭配補充效果更完整。</p>
-
-            <h3>Q：需要長期吃嗎？</h3>
-            <p>A：葉黃素需長期補充才能在體內累積濃度，一般建議持續食用 2–3 個月以上觀察成效。</p>
-        
-            <h3>Q：孕婦或小孩可以吃嗎？</h3>
-            <p>A：建議先諮詢醫師或營養師後再評估是否食用，並依年齡與劑量選擇合適產品。</p>
-
-            <h2>商品規格</h2>
-            <ul>
-                <li>主要成分：游離型葉黃素、玉米黃素、山桑子萃取物（含花青素）、維生素E</li>
-                <li>內容量：30 錠 / 盒，每錠 500 毫克</li>
-                <li>建議用量：每日 1 錠，建議餐後食用</li>
-                <li>保存期限：二年</li>
-                <li>原產地：台灣</li>
-                <li>保存方法：請置於陰涼乾燥處，避免陽光直射。</li>
-            </ul>
-
-            <h3>注意事項：</h3>
-            <ul>
-                <li>本產品含有天然植萃成分，若有沉澱或色差屬自然現象。</li>
-                <li>懷孕、哺乳或特殊體質者，請先諮詢專業人員後食用。</li>
-                <li>請依建議攝取量食用，多食無益。</li>
-                <li>本產品為營養補充用途，不能替代醫療用途。</li>
-            </ul>
-    </div>
-</section>
+        </section>
 <!-- footer-start -->
-<div class="container-large">
-    <footer>
-        <div class="footer-container">
-            <div class="company-information">
-                <p>公司資訊</p>
-                <ul>
-                    <li>地址：桃園市信義區中正街5號</li>
-                    <li>電話：03-7777-777</li>
-                    <li>服務時間：9:00~18:00</li>
-                </ul>
-            </div>
-            <div class="shopping-instruction">
-                <p>購物說明</p>
-                <ul>
-                    <a href="#"> <li>訂單問題</li></a>
-                    <a href="#"> <li>退換貨</li></a>
-                    <a href="#"> <li>服務條款</li></a>
-                    <a href="#"> <li>隱私政策</li></a>
-                </ul>
-            </div>
-            <div class="membership">
-                <p>會員服務</p>
-                <ul>
-                    <a href="#"> <li>會員制度</li></a>
-                    <a href="#"> <li>會員中心</li></a>
-                    <a href="#"> <li>聯絡我們</li></a>
-                </ul>
-            </div>
-            <div class="follow-us">
-                <p>追蹤我們</p>
-                <ul>
-                    <a href="#"> <li><img src="picture/facebookicon.png" alt=""></li></a>
-                    <a href="#"> <li><img src="picture/instaicon.png" alt=""></li></a>
-                    <a href="#"> <li><img src="picture/lineicon.png" alt=""></li></a>
-                </ul>
-            </div>
+        <div class="container-large">
+            <footer>
+                <div class="footer-container">
+                    <div class="company-information">
+                        <p>公司資訊</p>
+                        <ul>
+                            <li>地址：桃園市信義區中正街5號</li>
+                            <li>電話：03-7777-777</li>
+                            <li>服務時間：9:00~18:00</li>
+                        </ul>
+                    </div>
+                    <div class="shopping-instruction">
+                        <p>購物說明</p>
+                        <ul>
+                            <a href="#"> <li>訂單問題</li></a>
+                            <a href="#"> <li>退換貨</li></a>
+                            <a href="#"> <li>服務條款</li></a>
+                            <a href="#"> <li>隱私政策</li></a>
+                        </ul>
+                    </div>
+                    <div class="membership">
+                        <p>會員服務</p>
+                        <ul>
+                            <a href="#"> <li>會員制度</li></a>
+                            <a href="#"> <li>會員中心</li></a>
+                            <a href="#"> <li>聯絡我們</li></a>
+                        </ul>
+                    </div>
+                    <div class="follow-us">
+                        <p>追蹤我們</p>
+                        <ul>
+                            <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
+                            <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
+                            <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </footer>
-</div>
-</body>
+        <script src="all.js"></script>
+    </body>
 </html>

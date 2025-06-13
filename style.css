@@ -907,74 +907,61 @@ p{
     color: #000;
 }
 .product-introduction .cost{
-    font-size: 30px;
+    font-size: 36px;
     color: #D65331;
     font-weight: bold;
 }
 .quantity-wrapper span{
-    color: #23704D;
+    color: #000;
 }
 .minusbtn{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    border: 1px solid var(--main-color);
-    color: #23704D;
-}
-.minusbtn:hover{
-    background-color: #23704D;
-    color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
 }
 .plusbtn{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    border: 1px solid var(--main-color);
-    color: #23704D;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
 }
-.plusbtn:hover{
-    background-color: #23704D;
-    color: #fff;
-}
-.quantity-wrapper input{
-    height: 25px;
+.qty-input{
+    font-size: 16px;
+    height: 24px;
     text-align: center;
-    background-color: transparent;
-    border-radius: 6px;
-    border: 1px solid var(--main-color);
 }
 .btns{
     display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 .buybtn{
-    width: 300px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     border: 1px solid #1D9F64;
     border-radius: 30px;
     background-color: #1D9F64;
     color: #fff;
-}
-.buybtn:hover{
-    background-color:#D65331;
-    color: #fff;
-    border-color: #D65331;
+    cursor: pointer;
 }
 .addtocartbtn{
-    width: 300px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     border: 1px solid var(--main-color);
     border-radius: 30px;
     color: #23704D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
 }
-.addtocartbtn:hover{
-    background-color: #D65331;
-    border: 1px solid #D65331;
-    color: #fff;
-}
-.addtocartbtn img{
-    vertical-align: middle;
+.addtocartbtn span{
+    display: block;
 }
 @media screen and (max-width : 767px){
     .productpage-first-section{

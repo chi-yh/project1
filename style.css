@@ -246,6 +246,7 @@ p{
 }
 .breadcrumb ol {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
 }
@@ -432,6 +433,9 @@ p{
     display: flex;
     justify-content: flex-end;
     padding-inline: 20px;
+}
+.addtocarticon button{
+    border: 0px;
 }
 .card .addtocarticon img{
     width: 30px;
@@ -629,7 +633,7 @@ p{
     margin-bottom: 10px;
 }
 .about-us-first-section p{
-    max-width: 900px;
+    max-width: 1000px;
     line-height: 2;
     margin: auto;
 }
@@ -730,6 +734,18 @@ p{
     width: 100%;
 }
 @media screen and (max-width : 767px){
+    .about-us-first-section h1{
+        font-size: 32px;
+    }
+    .about-us-second-section h2{
+        font-size: 30px;
+    }
+    .each-nutritionist{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .value-section{
         display: flex;
         flex-direction: column;
@@ -738,6 +754,9 @@ p{
         margin: auto;
     }
     .value-content p{
+        font-size: 16px;
+    }
+    .about-us-third p{
         font-size: 16px;
     }
 }
@@ -770,10 +789,22 @@ p{
     line-height: 2;
 }
 .feedback-content h1{
-    font-size: 40px;
+    font-size: 36px;
 }
 .feedback-content p{
     font-size: 20px;
+}
+@media screen and (max-width:787px){
+    .feedback-content h1{
+        font-size: 28px;
+    }
+    .feedback-content p{
+    font-size: 16px;
+    }
+    .feedback-page .customer-pic{
+    width: 100%;
+    padding-bottom: 30px;
+}
 }
 /* blog-page */
 .article-list{
@@ -971,6 +1002,14 @@ p{
     }
     .productimg{
         width: 100%;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .qty-input{
+    width: 100px;
+   
     }
 }
 .productpage-content{

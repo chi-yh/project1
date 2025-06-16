@@ -762,6 +762,9 @@ p{
     .about-us-second-section h2{
         font-size: 30px;
     }
+    .about-us-first-section p{
+        font-size: 16px;
+    }
     .each-nutritionist{
         display: flex;
         flex-direction: column;

@@ -884,11 +884,8 @@ p{
 }
 /* blog-page-end */
 /* article */
-.article h1{
-    line-height: 1.5;
-}
 .article{
-    line-height: 1.5;
+    line-height: 2;
 }
 .article-pic{
     width:100%;
@@ -917,9 +914,6 @@ p{
     .article p{
         font-size: 16px;
     }
-}
-article p{
-
 }
 /* article-end */
 /* productpage */

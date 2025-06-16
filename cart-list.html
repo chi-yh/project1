@@ -8,8 +8,16 @@
         <link rel="icon" href="picture/logo.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css"> 
         <link rel="stylesheet" href="grid.css">
+        <style>
+            .page-wrapper{
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+        </style>
     </head>
     <body>
+        <div class="page-wrapper">
         <header class="main-header container-large">
             <div class="logo">
                 <a href="index.html"><img src="picture/logo.png" alt=""></a>
@@ -65,7 +73,7 @@
                 </button>
         </header>
 <!-- nav-end -->
-        <section class="cart">
+        <section class="cart cart-main">
             <h1>購物車</h1>
             <ul id="steps">
                 <li class="active">
@@ -181,6 +189,7 @@
                     </div>
                 </div>
             </footer>
+        </div>
         </div>
         <script src="all.js"></script>
     </body>

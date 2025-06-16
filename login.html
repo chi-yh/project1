@@ -3,13 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>vitaC 綜合益生菌推薦</title>
-        <meta name="description" content="">
+        <title>vitaC的簡約之道，純粹成就你的健康美學</title>
+        <meta name="description" content="vitaC 堅守「簡約之道 Less is More，純粹成就健康美學」。我們深信健康源於純粹與平衡，因此只提供成分單純、精華濃縮的保健食品，剔除不必要的添加物。每項產品皆經嚴格品管，確保以最優質純粹的姿態融入日常，助你無負擔吸收所需。選擇 vitaC，回歸健康本質，綻放內外兼具的獨特美學。">
         <link rel="icon" href="picture/logo.png" type="image/x-icon">
         <link rel="stylesheet" href="style.css"> 
         <link rel="stylesheet" href="grid.css">
+        <style>
+            h1{
+                text-align: center;
+            }
+             .page-wrapper {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+        </style>
     </head>
     <body>
+        <div class="page-wrapper">
         <header class="main-header container-large">
             <div class="logo">
                 <a href="index.html"><img src="picture/logo.png" alt=""></a>
@@ -46,7 +57,7 @@
                                 </svg>
                             </button>
                 </div>
-                <a href="login.html">
+                <a href="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M6 40.8V42h36v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C35.92 28 33.68 28 29.2 28H18.8c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C6 34.08 6 36.32 6 40.8"/>
                     </svg>
                 </a>
@@ -65,78 +76,75 @@
                 </button>
         </header>
 <!-- nav-end -->
-<!-- breadcrumb -->
-        <div class="breadcrumb" aria-label="breadcrumb">
-            <ol>
-                <li><a href="index.html">首頁</a></li>
-                <li><a href="feedback-list.html">顧客好評</a></li>
-                <li aria-current="page">vitaC 綜合益生菌推薦</li>
-            </ol>
+    <div class="login-page">
+        <div class="login-box">
+              <h1>會員登入</h1>
+        <form action="/login" method="post" class="login">
+            <span>
+            <label for="email">帳號</label>
+            <input type="email" id="email" name="email">
+            </span>
+            <span>
+            <label for="password">密碼</label>
+            <input type="password" id="password" name="password"> 
+            </span> 
+        </form>
+        <div class="login-btns">
+        <button type="button" class="login-btn">登入</button>
+        <button class="gmail-login-btn">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="0 0 48 48"><path fill="#ffc107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917"/><path fill="#ff3d00" d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691"/><path fill="#4caf50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.9 11.9 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44"/><path fill="#1976d2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917"/></svg></span>
+            <span>使用 Gmail 登入</span>
+        </button>
+        <button class="facebook-login-btn">
+            <span><svg width="50" height="30" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40.3333 22.0001C40.3333 11.8801 32.12 3.66675 22 3.66675C11.88 3.66675 3.66663 11.8801 3.66663 22.0001C3.66663 30.8734 9.97329 38.2617 18.3333 39.9667V27.5001H14.6666V22.0001H18.3333V17.4167C18.3333 13.8784 21.2116 11.0001 24.75 11.0001H29.3333V16.5001H25.6666C24.6583 16.5001 23.8333 17.3251 23.8333 18.3334V22.0001H29.3333V27.5001H23.8333V40.2417C33.0916 39.3251 40.3333 31.5151 40.3333 22.0001Z" fill="#3d5a98"/>
+</svg></span>
+            <span>使用 facebook 帳號登入</span>
+        </button>
         </div>
-<!-- breadcrumb-end -->
-        <section class="container">
-            <div class="feedback-page">
-                <div class="customer-pic">
-                    <img src="picture/customerimg/Customer feedback2.jpg" alt="綜合維他命b群推薦">
-                </div>
-                <div class="stars">
-                    <img src="picture/stars.svg" alt="五星評價">
-                </div>
-                <div class="feedback-content">
-                    <h1>vita C 綜合益生菌推薦 - 為了外食而運動的女子</h1>
-                    <p>
-                        我今年27歲，平常給人的感覺是比較健康陽光型的女生，肌膚偏古銅色，喜歡戶外活動，也有固定運動的習慣。不過外表看起來健康歸健康，生活習慣其實有點失衡，最大的問題就是長期外食。不管是便當、自助餐還是速食，常常都是吃得快、挑得少，加上工作又忙，久了真的會覺得消化好像不太順，整個人有點脹、卡卡的感覺。</br>
-                        </br>
-                        我之前也有陸續吃過幾款益生菌，但有的成分太複雜，有的吃了沒什麼特別感覺，後來是在網路上看到 vitaC 這款益生菌，剛好有提到它的菌種選得比較簡單、單純，不會添加一堆我看不太懂的東西，這點就讓我蠻有好感。
-
-                        我自己是習慣每天睡前吃一包，粉末滿細緻的，味道帶一點微甜但不會過頭，也不會讓人有負擔感。吃了快一個月，我發現自己早上起床後的感受比較舒服一點，而且也比較不會有那種一整天肚子悶悶的狀況。</br>
-                        </br>雖然我知道這類產品還是要搭配飲食跟作息調整，但這段時間的體驗讓我覺得值得繼續吃看看。
-
-                        另外我必須說，他們家的包裝風格我蠻喜歡的，不會太醫療感，拿出來補充的時候也覺得有點生活質感，這對我來說是個小加分（笑）。目前已經回購第二盒了！
-                    </p>
-                </div>
+        </div>
+    </div>
+ <!-- footer-start -->
+            <div class="container-large">
+                <footer>
+                    <div class="footer-container">
+                        <div class="company-information">
+                            <p>公司資訊</p>
+                            <ul>
+                                <li>地址：桃園市信義區中正街5號</li>
+                                <li>電話：03-7777-777</li>
+                                <li>服務時間：9:00~18:00</li>
+                            </ul>
+                        </div>
+                        <div class="shopping-instruction">
+                            <p>購物說明</p>
+                            <ul>
+                                <a href="#"><li>訂單問題</li></a>
+                                <a href="#"><li>退換貨</li></a>
+                                <a href="#"><li>服務條款</li></a>
+                                <a href="#"><li>隱私政策</li></a>
+                            </ul>
+                        </div>
+                        <div class="membership">
+                            <p>會員服務</p>
+                            <ul>
+                                <a href="#"><li>會員制度</li></a>
+                                <a href="#"><li>會員中心</li></a>
+                                <a href="#"><li>聯絡我們</li></a>
+                            </ul>
+                        </div>
+                        <div class="follow-us">
+                            <p>追蹤我們</p>
+                            <ul>
+                                <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
+                                <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
+                                <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
             </div>
-        </section>
-<!-- footer-start -->
-        <div class="container-large">
-            <footer>
-                <div class="footer-container">
-                    <div class="company-information">
-                        <p>公司資訊</p>
-                        <ul>
-                            <li>地址：桃園市信義區中正街5號</li>
-                            <li>電話：03-7777-777</li>
-                            <li>服務時間：9:00~18:00</li>
-                        </ul>
-                    </div>
-                    <div class="shopping-instruction">
-                        <p>購物說明</p>
-                        <ul>
-                            <a href="#"><li>訂單問題</li></a>
-                            <a href="#"><li>退換貨</li></a>
-                            <a href="#"><li>服務條款</li></a>
-                            <a href="#"><li>隱私政策</li></a>
-                        </ul>
-                    </div>
-                    <div class="membership">
-                        <p>會員服務</p>
-                        <ul>
-                            <a href="#"><li>會員制度</li></a>
-                            <a href="#"><li>會員中心</li></a>
-                            <a href="#"><li>聯絡我們</li></a>
-                        </ul>
-                    </div>
-                    <div class="follow-us">
-                        <p>追蹤我們</p>
-                        <ul>
-                            <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
-                            <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
-                            <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
+            <script src="all.js"></script>
         </div>
-        <script src="all.js"></script>
     </body>
 </html>

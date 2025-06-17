@@ -463,6 +463,14 @@ p{
     width: 30px;
     height: 30px; 
 }
+@media screen and (max-width:767px) {
+    .card h3{
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 16px;
+    }
+}
 /* product-section-end */
 /* feedback-section-start */
 .card-list{

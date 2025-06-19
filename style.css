@@ -1300,7 +1300,7 @@ p {
 }
 
 .tab-buttons li>button {
-    padding: 20px 30px;
+    padding: 10px 30px;
     cursor: pointer;
     background-color: #ccc;
     border-top: 1px solid #aaa;

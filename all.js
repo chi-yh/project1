@@ -51,3 +51,13 @@ document.addEventListener("DOMContentLoaded", function () {
         barIcon.classList.remove("hidden");
         closeIcon.style.display = 'none';
     },false);
+// 頁籤換頁
+      $(".tab-buttons button").on("click",function(){
+                // console.log(this)
+                $(".tab-buttons button").removeClass("active");
+                $(this).addClass("active");
+
+                const target = $(this).data("tab");
+                $(".tab-content").removeClass("active");
+                $(target).addClass("active");
+            })

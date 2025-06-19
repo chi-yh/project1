@@ -117,10 +117,18 @@
                     </div>
                 </div>
             </div>
-            <div class="productpage-content">
+                         <div class="tabs">
+            <ul class="tab-buttons">
+                <li><button class="active" data-tab="#tab1">商品介紹</button></li>
+                <li><button data-tab="#tab2">常見問題</button></li>
+                <li><button data-tab="#tab3">詳細規格</button></li>
+            </ul>
+
+            <div class="tab-content active" id="tab1">
                 <h2>vitaC B群活力錠：為您的每日注入持久能量</h2>
                 <p>您的身體，就像一部需要穩定燃料的引擎，而 B 群正是啟動活力的關鍵養分。vitaC B群活力錠 精選多種維生素 B 群，搭配小分子技術與純淨配方，有效補充每日所需，幫助您維持精神專注與體力充沛。無論是高壓工作、日夜顛倒，或是外食不均，vitaC 都是您每日元氣補給的可靠選擇，讓您從日常開始，充滿前進的能量。
                 </p>
+                </br>
                 <h2>產品特色：</h2>
                     <ul>
                         <li><strong>能量補給核心配方：</strong> 嚴選多種維生素 B 群，協助能量代謝與神經調節，支援精神與體力表現。</li>
@@ -130,7 +138,9 @@
                         <li><strong>GMP 認證品質保證：</strong> 通過台灣 GMP 認證，嚴格把關原料與製程，安心補充看的見。</li>
                         <li><strong>方便攜帶、無須冷藏：</strong> 錠狀劑型常溫保存，隨身攜帶更便利，每日補充無負擔。</li>
                     </ul>
-                    <h2>b群常見問題 Q&A</h2>
+            </div>
+            <div class="tab-content" id="tab2">
+                <h2>b群常見問題 Q&A</h2>
 
                     <h3>Q：什麼時候吃 B 群最有效？</h3>
                     <p>A：建議於早餐或午餐後食用，搭配含油脂食物吸收更佳，也能幫助提振白天精神。</p>
@@ -146,8 +156,10 @@
 
                     <h3>Q：和其他保健品一起吃可以嗎？</h3>
                     <p>A：大多數情況下可以，但若同時補充含鐵、鈣或藥物，建議間隔 1 小時以上，或先諮詢醫師／藥師建議。</p>
-
-                    <h2>商品規格</h2>
+                    
+            </div>
+            <div class="tab-content" id="tab3">
+               <h2>商品規格</h2>
                     <ul>
                         <li>主要成分：維生素 B1、B2、B6、B12、菸鹼酸、泛酸、葉酸、生物素</li>
                         <li>內容量：30 錠 / 盒，每錠 500 毫克</li>
@@ -156,7 +168,7 @@
                         <li>原產地：台灣</li>
                         <li>保存方法：請置於陰涼乾燥處，避免陽光直射。開封後請儘速食用完畢。</li>
                     </ul>
-                    <h3>注意事項：</h3>
+                <h2>注意事項：</h2>
                     <ul>
                         <li>本產品含有乳製品，不適合對其過敏體質者食用。</li>
                         <li>請洽詢醫師或營養師有關食用本品之建議。</li>
@@ -164,6 +176,7 @@
                         <li>本產品供保健用途，請依建議攝取量食用。</li>
                     </ul>
             </div>
+        </div>
         </section>
 <!-- footer-start -->
         <div class="container-large">
@@ -205,6 +218,7 @@
                 </div>
             </footer>
         </div>
+        <script src="jquery3.7.1.js"></script>
         <script src="all.js"></script>
     </body>
 </html>

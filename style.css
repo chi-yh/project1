@@ -1267,7 +1267,9 @@ p {
         flex-direction: column;
         gap: 20px;
     }
-
+    .productpage-first-section-right{
+        padding-bottom: 0;
+    }
     .productimg {
         width: 100%;
     }
@@ -1360,7 +1362,6 @@ p {
     .tabs {
         display: flex;
         flex-direction: column;
-        padding-top: 30px;
     }
     .tab-buttons li>button{
         padding: 10px 5px;

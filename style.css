@@ -598,7 +598,6 @@ p {
 
 .feedback-card .pic {
     display: flex;
-
 }
 
 .feedback-card .customer img {
@@ -618,7 +617,6 @@ p {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-
     .feedback-card {
         display: flex;
         flex-direction: column;
@@ -630,6 +628,13 @@ p {
 
     .feedback-card p {
         font-size: 1rem;
+    }
+    div.customer{
+        display: flex;
+        justify-content: center;
+    }
+    div.content{
+        text-align: center;
     }
 }
 
@@ -936,7 +941,9 @@ p {
         flex-direction: column;
         justify-content: center;
     }
-
+     .each-nutritionist img{
+        width: 100%;
+     }
     .value-section {
         display: flex;
         flex-direction: column;

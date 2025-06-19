@@ -156,7 +156,7 @@
 }
 @media screen and (max-width: 767px) {
     .container {
-        padding-inline: 50px;
+        padding-inline: 15px;
     }
     .col{
         margin-bottom: 20px;

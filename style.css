@@ -1360,7 +1360,7 @@ p {
     .tabs {
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        padding-top: 30px;
     }
     .tab-buttons li>button{
         padding: 10px 5px;

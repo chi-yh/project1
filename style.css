@@ -1592,6 +1592,10 @@ p {
 .login-btn {
     width: 400px;
     height: 40px;
+    border: 0.5px solid #fff;
+    background-color: #ece6e6;
+    border-radius: 30px;
+    
 }
 
 .gmail-login-btn {
@@ -1600,6 +1604,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.5px solid #fff;
+    background-color: #ece6e6;
+    border-radius: 30px;
+    
 
 }
 
@@ -1609,6 +1617,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.5px solid #fff;
+    background-color: #ece6e6;
+    border-radius: 30px;
+    
 
 }
 
@@ -1648,6 +1660,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        
 
     }
 

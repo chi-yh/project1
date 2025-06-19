@@ -926,7 +926,9 @@ p {
     }
 
     .each-nutritionist {
-        display: grid
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr 1fr;
     }
     .each-nutritionist .nutritionist-pic img{
         width: 100px;

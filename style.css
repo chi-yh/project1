@@ -719,18 +719,8 @@ p {
     }
 
     .vertical-text {
-        writing-mode: horizontal-tb;
-        text-align: center;
-        white-space: normal;
-        padding: 0;
-        margin-bottom: 20px;
-        line-height: 2;
-    }
+        display: none;
 
-    .vertical-text #second-txt {
-        display: block;
-        padding-right: 0px;
-        padding-top: 0;
     }
 }
 
@@ -818,9 +808,8 @@ p {
 .each-nutritionist {
     border: 1px solid #aaa;
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 20px;
 }
 
@@ -937,13 +926,13 @@ p {
     }
 
     .each-nutritionist {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid
     }
-     .each-nutritionist img{
-        width: 100%;
-     }
+    .each-nutritionist .nutritionist-pic img{
+        width: 100px;
+        height: 100px;
+
+    }
     .value-section {
         display: flex;
         flex-direction: column;
@@ -1311,7 +1300,7 @@ p {
 }
 
 .tab-buttons li>button {
-    padding: 10px 30px;
+    padding: 20px 30px;
     cursor: pointer;
     background-color: #ccc;
     border-top: 1px solid #aaa;
@@ -1372,7 +1361,7 @@ p {
     }
     .tab-buttons li>button{
         padding: 10px 5px;
-        font-size: 14px;
+        font-size: 18px;
     }
     .tab-content h2{
     font-size: 24px;

@@ -1174,7 +1174,9 @@ p {
 .productpage-first-section-right ul {
     padding-left: 3em;
 }
-
+.product-introduction{
+    line-height: 2;
+}
 .product-introduction ul {
     max-width: 600px;
     word-break: break-word;
@@ -1233,7 +1235,7 @@ p {
 .btns {
     display: flex;
     gap: 20px;
-    margin: auto;
+    justify-content: center;
     padding-top: 10px;
 }
 
@@ -1282,6 +1284,7 @@ p {
     .btns {
         display: flex;
         flex-direction: column;
+        align-items: anchor-center;
 
     }
 

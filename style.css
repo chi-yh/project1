@@ -584,7 +584,7 @@ p {
 }
 
 .feedback-card {
-    max-width: 700px;
+    width: 95%;
     border: 1px solid #aaa;
     display: flex;
     border-radius: 8px;
@@ -617,6 +617,7 @@ p {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
+
     .feedback-card {
         display: flex;
         flex-direction: column;
@@ -629,11 +630,13 @@ p {
     .feedback-card p {
         font-size: 1rem;
     }
-    div.customer{
+
+    div.customer {
         display: flex;
         justify-content: center;
     }
-    div.content{
+
+    div.content {
         text-align: center;
     }
 }
@@ -930,11 +933,13 @@ p {
         grid-template-columns: 1fr 1fr;
         grid-row: 1fr 1fr 1fr;
     }
-    .each-nutritionist .nutritionist-pic img{
+
+    .each-nutritionist .nutritionist-pic img {
         width: 100px;
         height: 100px;
 
     }
+
     .value-section {
         display: flex;
         flex-direction: column;
@@ -1265,9 +1270,11 @@ p {
         flex-direction: column;
         gap: 20px;
     }
-    .productpage-first-section-right{
+
+    .productpage-first-section-right {
         padding-bottom: 0;
     }
+
     .productimg {
         width: 100%;
     }
@@ -1329,9 +1336,11 @@ p {
     border-top: none;
     line-height: 2;
 }
-.tab-content p{
+
+.tab-content p {
     font-weight: normal;
 }
+
 .tab-content ul {
     padding-left: 2em;
 }
@@ -1356,22 +1365,27 @@ p {
 .tabs p {
     font-size: 16px;
 }
+
 @media screen and (max-width:767px) {
     .tabs {
         display: flex;
         flex-direction: column;
     }
-    .tab-buttons li>button{
+
+    .tab-buttons li>button {
         padding: 10px 5px;
         font-size: 18px;
     }
-    .tab-content h2{
-    font-size: 24px;
+
+    .tab-content h2 {
+        font-size: 24px;
     }
-    .tab-content h3{
-    font-size: 20px;
+
+    .tab-content h3 {
+        font-size: 20px;
     }
 }
+
 /* productpage-end*/
 /* catr-list */
 .cart {
@@ -1594,7 +1608,7 @@ p {
     border: 0.5px solid #aaa;
     background-color: #ddd;
     border-radius: 30px;
-    
+
 }
 
 .gmail-login-btn {
@@ -1606,7 +1620,7 @@ p {
     border: 0.5px solid #aaa;
     background-color: #ddd;
     border-radius: 30px;
-    
+
 
 }
 
@@ -1619,7 +1633,7 @@ p {
     border: 0.5px solid #aaa;
     background-color: #ddd;
     border-radius: 30px;
-    
+
 
 }
 
@@ -1659,7 +1673,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 

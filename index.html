@@ -1,290 +1,407 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>vitaC的簡約之道，純粹成就你的健康美學</title>
-        <meta name="description" content="vitaC 堅守「簡約之道 Less is More，純粹成就健康美學」。我們深信健康源於純粹與平衡，因此只提供成分單純、精華濃縮的保健食品，剔除不必要的添加物。每項產品皆經嚴格品管，確保以最優質純粹的姿態融入日常，助你無負擔吸收所需。選擇 vitaC，回歸健康本質，綻放內外兼具的獨特美學。">
-        <link rel="icon" href="picture/logo.png" type="image/x-icon">
-        <link rel="stylesheet" href="style.css"> 
-        <link rel="stylesheet" href="grid.css">
-    </head>
-    <body>
-        <header class="main-header container-large">
-            <div class="logo">
-                <a href="index.html"><img src="picture/logo.png" alt=""></a>
-            </div>
-            <ul class="menu open hidden" id="mobileMenu">
-                <li><a href="aboutus.html">關於我們</a></li>
-                <li>
-                    <a href="product-list-all.html">所有商品</a>
-                    <input type="checkbox" name="" id="m1">
-                    <label for="m1" class="icon">
-                        <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "/></svg>
-                    </label>
-                    <ul class="submenu">
-                        <li><a href="product-list-Probiotics.html">益生菌</a></li>
-                        <li><a href="product-list-vitaminb.html">維他命b</a></li>
-                        <li><a href="product-list-vitaminc.html">維他命c</a></li>
-                        <li><a href="product-list-lutein.html">葉黃素</a></li>
-                        <li><a href="product-list-fishoil.html">魚油</a></li>
-                        <li><a href="product-list-whey.html">乳清蛋白</a></li>
-                    </ul>
-                    </li>
-                <li><a href="feedback-list.html">顧客推薦</a></li>
-                <li><a href="blog.html">健康知識</a></li>  
-            </ul>
-            <div class="nav-icons">
-                <div class="search-container">
-                    <form class="search-form" action="/search" method="get">
-                        <input type="text" name="q" placeholder="搜尋商品" class="search-input">
-                    </form>
-                        <button class="nav-search">
-                            <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z" fill="#fff"/>
-                                </svg>
-                            </button>
-                </div>
-                <a href="login.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M6 40.8V42h36v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C35.92 28 33.68 28 29.2 28H18.8c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C6 34.08 6 36.32 6 40.8"/>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vitaC的簡約之道，純粹成就你的健康美學</title>
+    <meta name="description"
+        content="vitaC 堅守「簡約之道 Less is More，純粹成就健康美學」。我們深信健康源於純粹與平衡，因此只提供成分單純、精華濃縮的保健食品，剔除不必要的添加物。每項產品皆經嚴格品管，確保以最優質純粹的姿態融入日常，助你無負擔吸收所需。選擇 vitaC，回歸健康本質，綻放內外兼具的獨特美學。">
+    <link rel="icon" href="picture/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <style>
+        .slick-prev:before {
+            content: '<';
+            font-size: 35px;
+            left: -25px;
+            z-index: 1;
+            color: #23704D;
+            font-weight: bold;
+        }
+
+        .slick-next:before {
+            content: '>';
+            font-size: 35px;
+            left: 0;
+            z-index: 1;
+            color: #23704D;
+            font-weight: bold;
+        }
+
+        .slick-dotted.slick-slider {
+            padding-left: 10px;
+        }
+
+        .slick-dots li button:before {
+            font-size: 20px;
+            color: #23704D;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header container-large">
+        <div class="logo">
+            <a href="index.html"><img src="picture/logo.png" alt=""></a>
+        </div>
+        <ul class="menu open hidden" id="mobileMenu">
+            <li><a href="aboutus.html">關於我們</a></li>
+            <li>
+                <a href="product-list-all.html">所有商品</a>
+                <input type="checkbox" name="" id="m1">
+                <label for="m1" class="icon">
+                    <svg id="Layer_1" width="24px" style="enable-background:new 0 0 512 512;" version="1.1"
+                        viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon class="icon-svg" points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 " />
                     </svg>
-                </a>
-                <a href="cart-list.html" class="nav-cart">
-                    <svg width="30" height="30" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z" fill="currentColor"/>
+                </label>
+                <ul class="submenu">
+                    <li><a href="product-list-Probiotics.html">益生菌</a></li>
+                    <li><a href="product-list-vitaminb.html">維他命b</a></li>
+                    <li><a href="product-list-vitaminc.html">維他命c</a></li>
+                    <li><a href="product-list-lutein.html">葉黃素</a></li>
+                    <li><a href="product-list-fishoil.html">魚油</a></li>
+                    <li><a href="product-list-whey.html">乳清蛋白</a></li>
+                </ul>
+            </li>
+            <li><a href="feedback-list.html">顧客推薦</a></li>
+            <li><a href="blog.html">健康知識</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="search-container">
+                <form class="search-form" action="/search" method="get">
+                    <input type="text" name="q" placeholder="搜尋商品" class="search-input">
+                </form>
+                <button class="nav-search">
+                    <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24.5 26.75L16.625 18.875C16 19.375 15.2813 19.7708 14.4688 20.0625C13.6563 20.3542 12.7917 20.5 11.875 20.5C9.60417 20.5 7.6825 19.7133 6.11 18.14C4.5375 16.5667 3.75083 14.645 3.75 12.375C3.74917 10.105 4.53583 8.18333 6.11 6.61C7.68417 5.03667 9.60583 4.25 11.875 4.25C14.1442 4.25 16.0663 5.03667 17.6413 6.61C19.2163 8.18333 20.0025 10.105 20 12.375C20 13.2917 19.8542 14.1562 19.5625 14.9688C19.2708 15.7812 18.875 16.5 18.375 17.125L26.25 25L24.5 26.75ZM11.875 18C13.4375 18 14.7658 17.4533 15.86 16.36C16.9542 15.2667 17.5008 13.9383 17.5 12.375C17.4992 10.8117 16.9525 9.48375 15.86 8.39125C14.7675 7.29875 13.4392 6.75167 11.875 6.75C10.3108 6.74833 8.98292 7.29542 7.89125 8.39125C6.79958 9.48708 6.2525 10.815 6.25 12.375C6.2475 13.935 6.79458 15.2633 7.89125 16.36C8.98792 17.4567 10.3158 18.0033 11.875 18Z"
+                            fill="#fff" />
                     </svg>
-                    <span id="globalCartBadg" class="cart-badge">0</span>
-                </a>
-                <button class="hb" aria-label="切換選單">
-                    <span class="hbicon bar-icon"><svg height="32px" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
-                    </span>
-                    <span class="hbicon close-hb hidden"><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="25" viewBox="0 0 24 24">
-                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m5 19l7-7m0 0l7-7m-7 7L5 5m7 7l7 7" /></svg>
-                    </span>
                 </button>
-        </header>
-<!-- nav-end -->
-        <section class="banner-section">
-            <div class="banner">
-                <div class="bannerimg">
-                    <img src="picture/banner.jpg">
-                </div>
-                <div class="bannertxt">
-                    <h1 id="banner-h1">vita C <br> 純粹成就你的健康美學 </h1>
-                </div>
+            </div>
+            <a href="login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48">
+                    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="4"
+                        d="M24 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M6 40.8V42h36v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C35.92 28 33.68 28 29.2 28H18.8c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C6 34.08 6 36.32 6 40.8" />
+                </svg>
+            </a>
+            <a href="cart-list.html" class="nav-cart">
+                <svg width="30" height="30" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.4837 0.349988C1.60189 0.315092 1.7258 0.303839 1.84834 0.316874C1.97088 0.329909 2.08965 0.366975 2.19785 0.425953C2.30605 0.484931 2.40157 0.564663 2.47893 0.660587C2.55629 0.756512 2.61398 0.866748 2.6487 0.984989L3.3362 3.31249H21.6549C23.9549 3.31249 25.7112 5.45874 25.0487 7.69999L22.9799 14.7C22.5399 16.1925 21.1412 17.1875 19.5862 17.1875H8.1412C6.5862 17.1875 5.1887 16.1925 4.74745 14.7L0.851198 1.51624C0.780623 1.27788 0.807609 1.02124 0.92622 0.802772C1.04483 0.584302 1.24536 0.420635 1.4837 0.349988ZM5.81245 21.875C5.81245 21.1291 6.10876 20.4137 6.63621 19.8863C7.16366 19.3588 7.87903 19.0625 8.62495 19.0625C9.37087 19.0625 10.0862 19.3588 10.6137 19.8863C11.1411 20.4137 11.4374 21.1291 11.4374 21.875C11.4374 22.6209 11.1411 23.3363 10.6137 23.8637C10.0862 24.3912 9.37087 24.6875 8.62495 24.6875C7.87903 24.6875 7.16366 24.3912 6.63621 23.8637C6.10876 23.3363 5.81245 22.6209 5.81245 21.875ZM15.8124 21.875C15.8124 21.5056 15.8852 21.1399 16.0265 20.7987C16.1679 20.4575 16.375 20.1474 16.6362 19.8863C16.8974 19.6251 17.2074 19.4179 17.5487 19.2766C17.8899 19.1352 18.2556 19.0625 18.6249 19.0625C18.9943 19.0625 19.36 19.1352 19.7012 19.2766C20.0425 19.4179 20.3525 19.6251 20.6137 19.8863C20.8749 20.1474 21.082 20.4575 21.2234 20.7987C21.3647 21.1399 21.4374 21.5056 21.4374 21.875C21.4374 22.6209 21.1411 23.3363 20.6137 23.8637C20.0862 24.3912 19.3709 24.6875 18.6249 24.6875C17.879 24.6875 17.1637 24.3912 16.6362 23.8637C16.1088 23.3363 15.8124 22.6209 15.8124 21.875Z"
+                        fill="currentColor" />
+                </svg>
+                <span id="globalCartBadg" class="cart-badge">0</span>
+            </a>
+            <button class="hb" aria-label="切換選單">
+                <span class="hbicon bar-icon"><svg height="32px" style="enable-background:new 0 0 32 32;" version="1.1"
+                        viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+                    </svg>
+                </span>
+                <span class="hbicon close-hb hidden"><svg xmlns="http://www.w3.org/2000/svg" width="32px" height="25"
+                        viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="3" d="m5 19l7-7m0 0l7-7m-7 7L5 5m7 7l7 7" />
+                    </svg>
+                </span>
+            </button>
+    </header>
+    <!-- nav-end -->
+    <section class="banner-section">
+        <div class="banner">
+            <div class="bannerimg">
+                <img src="picture/banner.jpg">
+            </div>
+            <div class="bannertxt">
+                <h1 id="banner-h1">vita C <br> 純粹成就你的健康美學 </h1>
+            </div>
+        </div>
+    </section>
+    <div class="h2title">
+        <div class="leaficon">
+            <img src="picture/Vector.png" alt="">
+        </div>
+        <h2>本月優惠</h2>
+    </div>
+    <!-- salescetion-start -->
+    <div class="container">
+        <section class="sale-section">
+            <div class="birthday-sale">
+                <a href="product-list-all.html"><img src="picture/vitacbirthdaysale.jpg" alt="vitac生日優惠"></a>
+            </div>
+
+            <div class="summer-sale">
+                <a href="product-list-vitaminc.html"><img src="picture/summersale.jpg" alt="vitac夏日優惠"></a>
+            </div>
+            <div class="festival-sale">
+                <a href="product-list-Probiotics.html"><img src="picture/festivalbanner.jpg" alt="vitac端午優惠"></a>
             </div>
         </section>
-        <div class="h2title">
-            <div class="leaficon">
-                <img src="picture/Vector.png" alt="">
-            </div>
-            <h2>本月優惠</h2>
+    </div>
+    <!-- salescetion-end -->
+    <div class="hot-sale-title">
+        <div class="leaficon"><img src="picture/Vector.png" alt="">
         </div>
-<!-- salescetion-start -->
-        <div class="container">
-            <section class="sale-section">
-                <div class="birthday-sale">
-                    <a href="product-list-all.html"><img src="picture/vitacbirthdaysale.jpg" alt="vitac生日優惠"></a>
+        <h2>熱門商品</h2>
+    </div>
+    <section class="container">
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col col-4">
+                <div class="card">
+                    <div class="pic">
+                        <a href="probioticsproduct.html"><img src="picture/probioticsorange.jpg" alt="綜合益生菌30包/盒"></a>
+                    </div>
+                    <div class="txt">
+                        <h3>vitaC 綜合益生菌(30包)</h3>
+                        <p>$ 1300</p>
+                    </div>
+                    <div class="addtocarticon">
+                        <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
+                    </div>
                 </div>
-                
-                <div class="summer-sale">
-                    <a href="product-list-vitaminc.html"><img src="picture/summersale.jpg" alt="vitac夏日優惠"></a>
+            </div>
+            <div class="col col-4">
+                <div class="card">
+                    <div class="pic">
+                        <a href="product-list-vitaminc.html"><img src="picture/vitaminbproduct.jpg"
+                                alt="綜合維他命b 30粒/罐"></a>
+                    </div>
+                    <div class="txt">
+                        <h3>vitaC 綜合維他命b(30粒)</h3>
+                        <p>$ 900</p>
+                    </div>
+                    <div class="addtocarticon">
+                        <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
+                    </div>
                 </div>
-                <div class="festival-sale">
-                    <a href="product-list-Probiotics.html"><img src="picture/festivalbanner.jpg" alt="vitac端午優惠"></a>
+            </div>
+            <div class="col col-4">
+                <div class="card">
+                    <div class="pic">
+                        <a href="product-list-fishoil.html"><img src="picture/product-pic/fishoilpruduct-5.jpg"
+                                alt="頂級魚油30粒/罐"></a>
+                    </div>
+                    <div class="txt">
+                        <h3>vitaC 頂級魚油膠囊(30粒)</h3>
+                        <p>$ 1700</p>
+                    </div>
+                    <div class="addtocarticon">
+                        <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
+                    </div>
                 </div>
-            </section>
+            </div>
+            <div class="col col-4">
+                <div class="card">
+                    <div class="pic">
+                        <a href="product-list-lutein.html"><img src="picture/product-pic/lutienproduct-5.jpg"
+                                alt="金盞花葉黃素30粒/罐"></a>
+                    </div>
+                    <div class="txt">
+                        <h3>vitaC 金盞花葉黃素(30粒)</h3>
+                        <p>$ 1500</p>
+                    </div>
+                    <div class="addtocarticon">
+                        <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
+                    </div>
+                </div>
+            </div>
         </div>
-<!-- salescetion-end -->
-        <div class="hot-sale-title">
-            <div class="leaficon"><img src="picture/Vector.png" alt="">
-            </div>
-            <h2>熱門商品</h2>
+    </section>
+    <div class="h2title">
+        <div class="leaficon"><img src="picture/Vector.png" alt="">
         </div>
-        <section class="container">
-            <div class="row row-cols-1 row-cols-md-4">
-                <div class="col col-4">
-                    <div class="card">
-                        <div class="pic">
-                            <a href="probioticsproduct.html"><img src="picture/probioticsorange.jpg" alt="綜合益生菌30包/盒"></a>
-                        </div>
-                        <div class="txt">
-                            <h3>vitaC 綜合益生菌(30包)</h3>
-                            <p>$ 1300</p>
-                        </div>
-                        <div class="addtocarticon">
-                             <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
-                        </div>
+        <h2>顧客好評</h2>
+    </div>
+    <section class="container">
+        <div class="card-list feedback-section">
+            <a href="customer-feedback-vitaminb.html">
+                <div class="feedback-card">
+                    <div class="customer">
+                        <img src="picture/customerimg/Customer feedback1.jpg" alt="維他命b群評價">
+                    </div>
+                    <div class="content">
+                        <img id="starsicon" src="picture/stars.svg" alt="">
+                        <h3>vitaC 綜合維他命ｂ群推薦</h3>
+                        <p>最近工作壓力比較大，常常覺得精神不濟，朋友推薦了我 vitaC 的 B 群。
+                            吃了大概兩個星期，真的感覺有差！
+                        </p>
                     </div>
                 </div>
-                <div class="col col-4">
-                    <div class="card">
-                        <div class="pic">
-                            <a href="product-list-vitaminc.html"><img src="picture/vitaminbproduct.jpg" alt="綜合維他命b 30粒/罐"></a>
-                        </div>
-                        <div class="txt">
-                            <h3>vitaC 綜合維他命b(30粒)</h3>
-                            <p>$ 900</p>
-                        </div>
-                        <div class="addtocarticon">
-                             <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
-                        </div>
+            </a>
+            <a href="customer-feedback-vitaminc.html">
+                <div class="feedback-card">
+                    <div class="customer">
+                        <img src="picture/customerimg/Customer feedback2.jpg" alt="維他命c群評價">
+                    </div>
+                    <div class="content">
+                        <img id="starsicon" src="picture/stars.svg" alt="">
+                        <h3>vitaC 綜合益生菌推薦</h3>
+                        <p>我本身是外食族，常常覺得消化不太好。看到 vitaC 這款益生菌強調只有幾種單純的菌株，感覺很符合我的需求。
+                        </p>
                     </div>
                 </div>
-                <div class="col col-4">
-                    <div class="card">
-                        <div class="pic">
-                            <a href="product-list-fishoil.html"><img src="picture/product-pic/fishoilpruduct-5.jpg" alt="頂級魚油30粒/罐"></a>
-                        </div>
-                        <div class="txt">
-                            <h3>vitaC 頂級魚油膠囊(30粒)</h3>
-                            <p>$ 1700</p>
-                        </div>
-                        <div class="addtocarticon">
-                            <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
-                        </div>
+            </a>
+            <a href="customer-feedback-lutein.html">
+                <div class="feedback-card">
+                    <div class="customer">
+                        <img src="picture/customerimg/Customer feedback3.jpg" alt="葉黃素群評價">
+                    </div>
+                    <div class="content">
+                        <img id="starsicon" src="picture/stars.svg" alt="">
+                        <h3>vitaC 金盞花葉黃素推薦</h3>
+                        <p>身為一個長時間需要盯著電腦的上班族，葉黃素真的是我的必需品。vitaC 的葉黃素膠囊小小一顆很好吞...
+                        </p>
                     </div>
                 </div>
-                <div class="col col-4">
-                    <div class="card">
-                        <div class="pic">
-                            <a href="product-list-lutein.html"><img src="picture/product-pic/lutienproduct-5.jpg" alt="金盞花葉黃素30粒/罐"></a>
-                        </div>
-                        <div class="txt">
-                            <h3>vitaC 金盞花葉黃素(30粒)</h3>
-                            <p>$ 1500</p>
-                        </div>
-                        <div class="addtocarticon">
-                            <button><img src="picture/carticon.svg" alt="熱門商品加入購物車"></button>
-                        </div>
+            </a>
+            <a href="customer-feedback-vitaminc.html" class="card-link">
+                <div class="feedback-card">
+                    <div class="customer">
+                        <img src="picture/customerimg/customer4.jpg" alt="葉黃素群評價">
                     </div>
+                    <div class="content">
+                        <img id="starsicon" src="picture/stars.svg" alt="">
+                        <h3>vitaC 綜合維他命c推薦</h3>
+                        <p>工作忙碌，氣色暗沉，吃了 vitaC 維他命 C 一段時間，感覺皮膚透亮許多，精神也變好！小小一顆很好吞...
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="customer-feedback-fisholi.html" class="card-link">
+                <div class="feedback-card">
+                    <div class="customer">
+                        <img src="picture/customerimg/customer5.jpg" alt="葉黃素群評價">
+                    </div>
+                    <div class="content">
+                        <img id="starsicon" src="picture/stars.svg" alt="">
+                        <h3>vitaC 頂級魚油推薦</h3>
+                        <p>今年58歲，身體有些變化後開始補充vitaC的魚油，約三個月後，日常的不適感減少，睡眠品質也有所提升。現在每天固定攝取...
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="customer-feedback-whey.html" class="card-link">
+                <div class="feedback-card">
+                    <div class="customer">
+                        <img src="picture/customerimg/customer.jpg" alt="葉黃素群評價">
+                    </div>
+                    <div class="content">
+                        <img id="starsicon" src="picture/stars.svg" alt="">
+                        <h3>vitaC 乳清蛋白推薦</h3>
+                        <p>平常有在健身，開始補充乳清後覺得攝取蛋白質變得更方便，巧克力口味順口不甜膩，運動完喝一杯很剛好...
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <div class="h2title">
+        <div class="leaficon"><img src="picture/Vector.png" alt="">
+        </div>
+        <h2>健康知識</h2>
+    </div>
+    <section class="section-container">
+        <div class="vertical-text">
+            <span>回歸純粹的健康本質</span><br>
+            <span id="second-txt">了解簡約的健康哲學</span>
+        </div>
+        <div class="card-list">
+            <div class="knowledge-card">
+                <div class="pic">
+                    <a href="vitaminbarticle.html"><img src="picture/articleimg/vitaminbarticle.jpg" alt="吃b群有效嗎"></a>
+                </div>
+                <div class="txt">
+                    <h3>吃b群有效嗎</h3>
+                    <p>精神不濟、容易疲勞？B 群真的有效嗎？ 深入解析 B 群的功效、種類與正確補充方式...</p>
                 </div>
             </div>
-        </section>
-                        <div class="h2title">
-                        <div class="leaficon"><img src="picture/Vector.png" alt="">
-                        </div>
-                        <h2>顧客好評</h2>
-                        </div>
-                    <section class="container">
-                        <div class="card-list">
-                            <a href="customer-feedback-vitaminb.html"><div class="feedback-card">
-                                <div class="customer">
-                                    <img src="picture/customerimg/Customer feedback1.jpg" alt="維他命b群評價">
-                                </div>
-                                <div class="content">
-                                    <img id="starsicon" src="picture/stars.svg" alt="">
-                                    <h3>vitaC 綜合維他命ｂ群推薦</h3>
-                                    <p>最近工作壓力比較大，常常覺得精神不濟，朋友推薦了我 vitaC 的 B 群。
-                                            吃了大概兩個星期，真的感覺有差！
-                                    </p>
-                                </div>
-                                </div></a>
-                            <a href="customer-feedback-vitaminc.html"><div class="feedback-card">
-                                <div class="customer">
-                                    <img src="picture/customerimg/Customer feedback2.jpg" alt="維他命c群評價">
-                                </div>
-                                <div class="content">
-                                    <img id="starsicon" src="picture/stars.svg" alt="">
-                                    <h3>vitaC 綜合益生菌推薦</h3>
-                                    <p>我本身是外食族，常常覺得消化不太好。看到 vitaC 這款益生菌強調只有幾種單純的菌株，感覺很符合我的需求。
-                                    </p>
-                                </div>
-                                </div></a>
-                            <a href="customer-feedback-lutein.html"><div class="feedback-card">
-                                <div class="customer">
-                                    <img src="picture/customerimg/Customer feedback3.jpg" alt="葉黃素群評價">
-                                </div>
-                                <div class="content">
-                                    <img id="starsicon" src="picture/stars.svg" alt="">
-                                    <h3>vitaC 金盞花葉黃素推薦</h3>
-                                    <p>身為一個長時間需要盯著電腦的上班族，葉黃素真的是我的必需品。vitaC 的葉黃素膠囊小小一顆很好吞...
-                                    </p>
-                                </div>
-                            </div></a>
-                        </div>
-                    </section>
-                            <div class="h2title">
-                            <div class="leaficon"><img src="picture/Vector.png" alt="">
-                            </div>
-                            <h2>健康知識</h2>
-                            </div>
-                    <section class="section-container">
-                        <div class="vertical-text">
-                                <span>回歸純粹的健康本質</span><br>
-                                <span id="second-txt">了解簡約的健康哲學</span>
-                        </div>
-                        <div class="card-list">
-                                <div class="knowledge-card">
-                                    <div class="pic">
-                                        <a href="vitaminbarticle.html"><img src="picture/articleimg/vitaminbarticle.jpg" alt="吃b群有效嗎"></a>
-                                    </div>
-                                    <div class="txt">
-                                        <h3>吃b群有效嗎</h3>
-                                        <p>精神不濟、容易疲勞？B 群真的有效嗎？ 深入解析 B 群的功效、種類與正確補充方式...</p>
-                                    </div>
-                                </div>
-                                <div class="knowledge-card">
-                                    <div class="pic">
-                                        <a href="lutienarticle.html"><img src="picture/articleimg/luteinarticle.jpg" alt="葉黃素怎麼吃"></a>
-                                    </div>
-                                    <div class="txt">
-                                        <h3>葉黃素怎麼吃</h3>
-                                        <p>守護晶亮，葉黃素怎麼吃才有效？ 了解葉黃素的正確攝取時間、劑量與搭配...</p>
-                                    </div>
-                                </div>
-                                <div class="knowledge-card">
-                                    <div class="pic">
-                                        <a href="Probiotics-airticle.html"><img src="picture/articleimg/probioticsarticle.jpg" alt="益生菌功效是什麼"></a>
-                                    </div>
-                                    <div class="txt">
-                                        <h3>益生菌功效是什麼</h3>
-                                        <p>探索益生菌的強大功效！ 您是否知道，腸道健康是維持全身機能的關...</p> 
-                                    </div>
-                                </div>
-                        </div>
-                    </section>
-<!-- footer-start -->
-            <div class="container-large">
-                <footer>
-                    <div class="footer-container">
-                        <div class="company-information">
-                            <p>公司資訊</p>
-                            <ul>
-                                <li>地址：桃園市信義區中正街5號</li>
-                                <li>電話：03-7777-777</li>
-                                <li>服務時間：9:00~18:00</li>
-                            </ul>
-                        </div>
-                        <div class="shopping-instruction">
-                            <p>購物說明</p>
-                            <ul>
-                                <a href="#"><li>訂單問題</li></a>
-                                <a href="#"><li>退換貨</li></a>
-                                <a href="#"><li>服務條款</li></a>
-                                <a href="#"><li>隱私政策</li></a>
-                            </ul>
-                        </div>
-                        <div class="membership">
-                            <p>會員服務</p>
-                            <ul>
-                                <a href="#"><li>會員制度</li></a>
-                                <a href="#"><li>會員中心</li></a>
-                                <a href="#"><li>聯絡我們</li></a>
-                            </ul>
-                        </div>
-                        <div class="follow-us">
-                            <p>追蹤我們</p>
-                            <ul>
-                                <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
-                                <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
-                                <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </footer>
+            <div class="knowledge-card">
+                <div class="pic">
+                    <a href="lutienarticle.html"><img src="picture/articleimg/luteinarticle.jpg" alt="葉黃素怎麼吃"></a>
+                </div>
+                <div class="txt">
+                    <h3>葉黃素怎麼吃</h3>
+                    <p>守護晶亮，葉黃素怎麼吃才有效？ 了解葉黃素的正確攝取時間、劑量與搭配...</p>
+                </div>
             </div>
-            <script src="all.js"></script>
-    </body>
+            <div class="knowledge-card">
+                <div class="pic">
+                    <a href="Probiotics-airticle.html"><img src="picture/articleimg/probioticsarticle.jpg"
+                            alt="益生菌功效是什麼"></a>
+                </div>
+                <div class="txt">
+                    <h3>益生菌功效是什麼</h3>
+                    <p>探索益生菌的強大功效！ 您是否知道，腸道健康是維持全身機能的關...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-start -->
+    <div class="container-large">
+        <footer>
+            <div class="footer-container">
+                <div class="company-information">
+                    <p>公司資訊</p>
+                    <ul>
+                        <li>地址：桃園市信義區中正街5號</li>
+                        <li>電話：03-7777-777</li>
+                        <li>服務時間：9:00~18:00</li>
+                    </ul>
+                </div>
+                <div class="shopping-instruction">
+                    <p>購物說明</p>
+                    <ul>
+                        <a href="#">
+                            <li>訂單問題</li>
+                        </a>
+                        <a href="#">
+                            <li>退換貨</li>
+                        </a>
+                        <a href="#">
+                            <li>服務條款</li>
+                        </a>
+                        <a href="#">
+                            <li>隱私政策</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="membership">
+                    <p>會員服務</p>
+                    <ul>
+                        <a href="#">
+                            <li>會員制度</li>
+                        </a>
+                        <a href="#">
+                            <li>會員中心</li>
+                        </a>
+                        <a href="#">
+                            <li>聯絡我們</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="follow-us">
+                    <p>追蹤我們</p>
+                    <ul>
+                        <li><a href="#"><img src="picture/facebookicon.svg" alt="追蹤我們facebook"></a></li>
+                        <li><a href="#"><img src="picture/instaicon.svg" alt="追蹤我們instagram"></a></li>
+                        <li><a href="#"><img src="picture/lineicon.svg" alt="加入line好友"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="jquery3.7.1.js"></script>
+    <script src="all.js"></script>
+    <script src="slick/slick.min.js"></script>
+</body>
+
 </html>
